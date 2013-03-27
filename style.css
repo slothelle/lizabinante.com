@@ -77,8 +77,10 @@ img {
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 220px;
-	width: 650px;
+	width: 600px;
 	height: 100px;
 	font-size: 0.9em;
 	padding: 0px;
+	line-height: 1.5em;
+	text-align: justify;
 }

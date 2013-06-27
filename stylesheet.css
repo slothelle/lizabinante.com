@@ -1,0 +1,56 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  background: #E7E1D4;
+  line-height: 1.75em;
+}
+
+h1 {
+  font-family: 'Josefin Slab';
+  color: #F1433F;
+  font-weight: 600;
+  font-size: 2.75em;
+}
+
+h3 {
+  font-family: 'Josefin Slab';
+  font-weight: 600;
+  color: #70B7BA;
+  font-size: 1.5em;
+}
+
+#container {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: -20px;
+  padding: 80px 40px 20px 40px;
+  background: #FFFFFF;
+}
+
+nav {
+  position: fixed;
+  background: #3D4C53;
+  top: 0px;
+  left: 20px;
+  padding: 100px 15px 15px 15px;
+}
+
+ul.nav, li.nav {
+  margin: 0;
+  padding: 0;
+  line-height: 1.75em;
+  list-style-type: none;
+}
+
+a {
+  color: #70B7BA;
+  text-decoration: none;
+}
+
+nav a {
+  color: #F1433F;
+}
+
+nav a:hover {
+  color: #70B7BA;
+}

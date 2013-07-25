@@ -1,0 +1,58 @@
+---
+layout: default
+title: liz/codeblog &raquo; hello!
+---
+
+<h3 class="center">
+  Random and vaguely programming-related ramblings from a sassy lady.
+</h3>
+
+{% for post in paginator.posts %}
+  <div class="section">
+    <div class="col span_1_of_5 meta">
+      <span class="times green">&times;</span> <br><br>
+      <span class="up weight300">{{ post.date | date_to_string }} <br>
+      <span class="blue-up">{{ post.category }}</span> <br><br>
+      <span class="weight300 small green">Tagged as</span><br>
+      <span class="weight100 small">{{ post.tags | array_to_sentence_string }}</span>
+      </span>
+    </div>
+    <div class="col span_4_of_5">
+      <h3 class="index-title">
+        <a href="{{post.url}}">{{post.title}}</a>
+      </h3>
+      <p>{{ post.content }}</p>
+    </div>
+  </div>
+{% endfor %}
+
+<div class="section">
+  <div class="col span_1_of_9">
+    {% if paginator.previous_page %}
+      <p class="previous center">
+        {% if paginator.previous_page == 1 %}
+          <a href="/">Previous</a>
+        {% else %}
+          <a href="{{ paginator.previous_page_path }}">Previous</a>
+        {% endif %}
+      </p>
+    {% else %}
+      <p class="previous disabled center">
+        <span>Previous</span>
+      </p>
+    {% endif %}
+  </div>
+  <!-- Empty spacer -->
+  <div class="col span_7_of_9"></div>
+  <div class="col span_1_of_9">
+    {% if paginator.next_page %}
+      <p class="next center">
+        <a href="{{ paginator.next_page_path }}">Next</a>
+      </p>
+    {% else %}
+      <p class="next disabled center">
+        <span>Next</span>
+      </p>
+    {% endif %}
+  </div>
+</div>

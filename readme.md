@@ -1,1 +1,0 @@
-New version of lizabinante.com. Less about knitting, more about programming. I promise this readme file will be prettier soon. 

@@ -1,1 +1,2 @@
-/lizcode/_site/*
+_site
+.sass-cache

@@ -56,143 +56,156 @@ h1, h2 {
   font-weight: 700;
 }
 /* line 50, ../sass/main.scss */
+#blog .meta-comment {
+  font-family: "proxima-nova", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 700;
+  text-align: right;
+}
+/* line 56, ../sass/main.scss */
+#blog .meta-comment a {
+  color: #ffb03b;
+  text-decoration: none;
+}
+/* line 62, ../sass/main.scss */
 #blog .topdot {
   border-top: 1px dotted #bac0ac;
   margin-top: 40px;
   padding-top: 30px;
 }
-/* line 56, ../sass/main.scss */
+/* line 68, ../sass/main.scss */
 #blog ul, #blog li {
   line-height: 2em;
 }
 
-/* line 62, ../sass/main.scss */
+/* line 74, ../sass/main.scss */
 .icony {
   padding: 10px;
 }
 
-/* line 63, ../sass/main.scss */
+/* line 75, ../sass/main.scss */
 a.icony {
   color: #ffb03b;
   text-decoration: none;
 }
 
-/* line 64, ../sass/main.scss */
+/* line 76, ../sass/main.scss */
 a.icony:hover {
   color: #2bd4be;
 }
 
-/* line 67, ../sass/main.scss */
+/* line 79, ../sass/main.scss */
 .neutral-dark {
   color: #98a89e;
 }
 
-/* line 68, ../sass/main.scss */
+/* line 80, ../sass/main.scss */
 .neutral-light {
   color: #bac0ac;
 }
 
-/* line 69, ../sass/main.scss */
+/* line 81, ../sass/main.scss */
 .bright-main {
   color: #2bd4be;
 }
 
-/* line 70, ../sass/main.scss */
+/* line 82, ../sass/main.scss */
 .bright-alt {
   color: #ffb03b;
 }
 
-/* line 73, ../sass/main.scss */
+/* line 85, ../sass/main.scss */
 .back-neutral-dark {
   background: #98a89e;
 }
 
-/* line 74, ../sass/main.scss */
+/* line 86, ../sass/main.scss */
 .back-neutral-light {
   background: #bac0ac;
 }
 
-/* line 75, ../sass/main.scss */
+/* line 87, ../sass/main.scss */
 .back-bright-main {
   background: #2bd4be;
 }
 
-/* line 76, ../sass/main.scss */
+/* line 88, ../sass/main.scss */
 .back-bright-alt {
   background: #ffb03b;
 }
 
-/* line 79, ../sass/main.scss */
+/* line 91, ../sass/main.scss */
 .height0x {
   min-height: 5px;
 }
 
-/* line 80, ../sass/main.scss */
+/* line 92, ../sass/main.scss */
 .height1x {
   min-height: 25px;
 }
 
-/* line 81, ../sass/main.scss */
+/* line 93, ../sass/main.scss */
 .height2x {
   min-height: 50px;
 }
 
-/* line 82, ../sass/main.scss */
+/* line 94, ../sass/main.scss */
 .height3x {
   min-height: 70px;
 }
 
-/* line 83, ../sass/main.scss */
+/* line 95, ../sass/main.scss */
 .height4x {
   min-height: 90px;
 }
 
-/* line 86, ../sass/main.scss */
+/* line 98, ../sass/main.scss */
 .center {
   text-align: center;
 }
 
-/* line 87, ../sass/main.scss */
+/* line 99, ../sass/main.scss */
 .right {
   text-align: right;
 }
 
-/* line 90, ../sass/main.scss */
+/* line 102, ../sass/main.scss */
 .large {
   font-size: 1.7em;
 }
 
-/* line 91, ../sass/main.scss */
+/* line 103, ../sass/main.scss */
 .medium {
   font-size: 1.2em;
 }
 
-/* line 92, ../sass/main.scss */
+/* line 104, ../sass/main.scss */
 .small {
   font-size: 0.9em;
 }
 
-/* line 95, ../sass/main.scss */
+/* line 107, ../sass/main.scss */
 .weight300 {
   font-weight: 300;
 }
 
-/* line 96, ../sass/main.scss */
+/* line 108, ../sass/main.scss */
 .weight400 {
   font-weight: 400;
 }
 
-/* line 97, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 .weight700 {
   font-weight: 700;
 }
 
-/* line 98, ../sass/main.scss */
+/* line 110, ../sass/main.scss */
 .weight900 {
   font-weight: 900;
 }
 
-/* line 101, ../sass/main.scss */
+/* line 113, ../sass/main.scss */
 a.link-neutral-dark {
   background: #98a89e;
   text-decoration: none;
@@ -201,7 +214,7 @@ a.link-neutral-dark {
   font-weight: 300;
 }
 
-/* line 109, ../sass/main.scss */
+/* line 121, ../sass/main.scss */
 a.link-neutral-light {
   background: #bac0ac;
   text-decoration: none;
@@ -210,7 +223,7 @@ a.link-neutral-light {
   font-weight: 300;
 }
 
-/* line 117, ../sass/main.scss */
+/* line 129, ../sass/main.scss */
 a.link-bright-main {
   background: #2bd4be;
   text-decoration: none;
@@ -219,7 +232,7 @@ a.link-bright-main {
   font-weight: 300;
 }
 
-/* line 125, ../sass/main.scss */
+/* line 137, ../sass/main.scss */
 a.link-bright-alt {
   background: #ffb03b;
   text-decoration: none;
@@ -228,25 +241,25 @@ a.link-bright-alt {
   font-weight: 300;
 }
 
-/* line 133, ../sass/main.scss */
+/* line 145, ../sass/main.scss */
 a.link-neutral-dark:hover {
   background: #2bd4be;
   text-decoration: none;
 }
 
-/* line 138, ../sass/main.scss */
+/* line 150, ../sass/main.scss */
 a.link-neutral-light:hover {
   background: #ffb03b;
   text-decoration: none;
 }
 
-/* line 143, ../sass/main.scss */
+/* line 155, ../sass/main.scss */
 a.link-bright-main:hover {
   background: #98a89e;
   text-decoration: none;
 }
 
-/* line 148, ../sass/main.scss */
+/* line 160, ../sass/main.scss */
 a.link-bright-alt:hover {
   background: #bac0ac;
   text-decoration: none;

@@ -1,14 +1,14 @@
 <p> 
   <div class="section group topdot">
-    <div class="col span_1_of_2"><h2><a href="{{ post.url }}">{{ post.title }}</a></h2></div>
-    <div class="col span_1_of_2 right">
+    <div class="col span_5_of_6"><h2><a href="{{ page.url }}">{{ page.title }}</a></h2></div>
+    <div class="col span_1_of_6 right">
       <span class="meta-date">
-          {{ post.date | date_to_string }}
+          {{ page.date | date_to_string }}
       </span>
     </div>
   </div>
 
-    <p>
-        {{ post.content }}
-    </p>
+  <p>
+    {{ page.content }}
+  </p>
 </p>

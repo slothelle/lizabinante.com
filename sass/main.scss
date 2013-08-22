@@ -68,6 +68,11 @@ h1, h2 {
   ul, li {
     line-height: 2em;
   }
+
+  img {
+    padding-right: $padding * 2;
+    border: 0;
+  }
 }
 
 // Icons

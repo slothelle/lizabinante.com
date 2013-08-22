@@ -78,134 +78,139 @@ h1, h2 {
 #blog ul, #blog li {
   line-height: 2em;
 }
+/* line 72, ../sass/main.scss */
+#blog img {
+  padding-right: 20px;
+  border: 0;
+}
 
-/* line 74, ../sass/main.scss */
+/* line 79, ../sass/main.scss */
 .icony {
   padding: 10px;
 }
 
-/* line 75, ../sass/main.scss */
+/* line 80, ../sass/main.scss */
 a.icony {
   color: #ffb03b;
   text-decoration: none;
 }
 
-/* line 76, ../sass/main.scss */
+/* line 81, ../sass/main.scss */
 a.icony:hover {
   color: #2bd4be;
 }
 
-/* line 79, ../sass/main.scss */
+/* line 84, ../sass/main.scss */
 .neutral-dark {
   color: #98a89e;
 }
 
-/* line 80, ../sass/main.scss */
+/* line 85, ../sass/main.scss */
 .neutral-light {
   color: #bac0ac;
 }
 
-/* line 81, ../sass/main.scss */
+/* line 86, ../sass/main.scss */
 .bright-main {
   color: #2bd4be;
 }
 
-/* line 82, ../sass/main.scss */
+/* line 87, ../sass/main.scss */
 .bright-alt {
   color: #ffb03b;
 }
 
-/* line 85, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 .back-neutral-dark {
   background: #98a89e;
 }
 
-/* line 86, ../sass/main.scss */
+/* line 91, ../sass/main.scss */
 .back-neutral-light {
   background: #bac0ac;
 }
 
-/* line 87, ../sass/main.scss */
+/* line 92, ../sass/main.scss */
 .back-bright-main {
   background: #2bd4be;
 }
 
-/* line 88, ../sass/main.scss */
+/* line 93, ../sass/main.scss */
 .back-bright-alt {
   background: #ffb03b;
 }
 
-/* line 91, ../sass/main.scss */
+/* line 96, ../sass/main.scss */
 .height0x {
   min-height: 5px;
 }
 
-/* line 92, ../sass/main.scss */
+/* line 97, ../sass/main.scss */
 .height1x {
   min-height: 25px;
 }
 
-/* line 93, ../sass/main.scss */
+/* line 98, ../sass/main.scss */
 .height2x {
   min-height: 50px;
 }
 
-/* line 94, ../sass/main.scss */
+/* line 99, ../sass/main.scss */
 .height3x {
   min-height: 70px;
 }
 
-/* line 95, ../sass/main.scss */
+/* line 100, ../sass/main.scss */
 .height4x {
   min-height: 90px;
 }
 
-/* line 98, ../sass/main.scss */
+/* line 103, ../sass/main.scss */
 .center {
   text-align: center;
 }
 
-/* line 99, ../sass/main.scss */
+/* line 104, ../sass/main.scss */
 .right {
   text-align: right;
 }
 
-/* line 102, ../sass/main.scss */
+/* line 107, ../sass/main.scss */
 .large {
   font-size: 1.7em;
 }
 
-/* line 103, ../sass/main.scss */
+/* line 108, ../sass/main.scss */
 .medium {
   font-size: 1.2em;
 }
 
-/* line 104, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 .small {
   font-size: 0.9em;
 }
 
-/* line 107, ../sass/main.scss */
+/* line 112, ../sass/main.scss */
 .weight300 {
   font-weight: 300;
 }
 
-/* line 108, ../sass/main.scss */
+/* line 113, ../sass/main.scss */
 .weight400 {
   font-weight: 400;
 }
 
-/* line 109, ../sass/main.scss */
+/* line 114, ../sass/main.scss */
 .weight700 {
   font-weight: 700;
 }
 
-/* line 110, ../sass/main.scss */
+/* line 115, ../sass/main.scss */
 .weight900 {
   font-weight: 900;
 }
 
-/* line 113, ../sass/main.scss */
+/* line 118, ../sass/main.scss */
 a.link-neutral-dark {
   background: #98a89e;
   text-decoration: none;
@@ -214,7 +219,7 @@ a.link-neutral-dark {
   font-weight: 300;
 }
 
-/* line 121, ../sass/main.scss */
+/* line 126, ../sass/main.scss */
 a.link-neutral-light {
   background: #bac0ac;
   text-decoration: none;
@@ -223,7 +228,7 @@ a.link-neutral-light {
   font-weight: 300;
 }
 
-/* line 129, ../sass/main.scss */
+/* line 134, ../sass/main.scss */
 a.link-bright-main {
   background: #2bd4be;
   text-decoration: none;
@@ -232,7 +237,7 @@ a.link-bright-main {
   font-weight: 300;
 }
 
-/* line 137, ../sass/main.scss */
+/* line 142, ../sass/main.scss */
 a.link-bright-alt {
   background: #ffb03b;
   text-decoration: none;
@@ -241,25 +246,25 @@ a.link-bright-alt {
   font-weight: 300;
 }
 
-/* line 145, ../sass/main.scss */
+/* line 150, ../sass/main.scss */
 a.link-neutral-dark:hover {
   background: #2bd4be;
   text-decoration: none;
 }
 
-/* line 150, ../sass/main.scss */
+/* line 155, ../sass/main.scss */
 a.link-neutral-light:hover {
   background: #ffb03b;
   text-decoration: none;
 }
 
-/* line 155, ../sass/main.scss */
+/* line 160, ../sass/main.scss */
 a.link-bright-main:hover {
   background: #98a89e;
   text-decoration: none;
 }
 
-/* line 160, ../sass/main.scss */
+/* line 165, ../sass/main.scss */
 a.link-bright-alt:hover {
   background: #bac0ac;
   text-decoration: none;

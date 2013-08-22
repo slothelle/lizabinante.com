@@ -18,7 +18,7 @@ a {
 
 /* line 14, ../sass/main.scss */
 a:hover {
-  color: #ff4411;
+  color: #ffb03b;
 }
 
 /* line 17, ../sass/main.scss */
@@ -52,7 +52,7 @@ h1, h2 {
   text-transform: uppercase;
   font-size: 0.8em;
   padding: 5px;
-  color: #ff4411;
+  color: #ffb03b;
   font-weight: 700;
 }
 /* line 50, ../sass/main.scss */
@@ -73,7 +73,7 @@ h1, h2 {
 
 /* line 63, ../sass/main.scss */
 a.icony {
-  color: #ff4411;
+  color: #ffb03b;
   text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ a.icony:hover {
 
 /* line 70, ../sass/main.scss */
 .bright-alt {
-  color: #ff4411;
+  color: #ffb03b;
 }
 
 /* line 73, ../sass/main.scss */
@@ -119,7 +119,7 @@ a.icony:hover {
 
 /* line 76, ../sass/main.scss */
 .back-bright-alt {
-  background: #ff4411;
+  background: #ffb03b;
 }
 
 /* line 79, ../sass/main.scss */
@@ -221,7 +221,7 @@ a.link-bright-main {
 
 /* line 125, ../sass/main.scss */
 a.link-bright-alt {
-  background: #ff4411;
+  background: #ffb03b;
   text-decoration: none;
   color: #333333;
   padding: 10px;
@@ -236,7 +236,7 @@ a.link-neutral-dark:hover {
 
 /* line 138, ../sass/main.scss */
 a.link-neutral-light:hover {
-  background: #ff4411;
+  background: #ffb03b;
   text-decoration: none;
 }
 

@@ -18,7 +18,7 @@ a:hover { color: $bright-alt; }
   padding-top: $padding * 5;
   text-align: right;
   h1 {
-    font-size: 3em;
+    font-size: 3.5em;
   }
 }
 
@@ -31,7 +31,7 @@ a:hover { color: $bright-alt; }
 }
 
 // Generic headers
-h1, h2 { 
+h1, h2, h3 { 
   font-family: $serif;
   font-weight: 400;
 }
@@ -42,7 +42,6 @@ h1, h2 {
     font-family: $font;
     text-transform: uppercase;
     font-size: 0.8em;
-    padding: $padding / 2;
     color: $bright-alt;
     font-weight: 700;
   }
@@ -73,10 +72,13 @@ h1, h2 {
     padding-right: $padding * 2;
     border: 0;
   }
+
+  .img-circle {
+    border-radius: 500px;
+  }
 }
 
 // Icons
-.icony { padding: $padding; }
 a.icony { color: $bright-alt; text-decoration: none; }
 a.icony:hover { color: $bright-main; }
 
@@ -106,7 +108,7 @@ a.icony:hover { color: $bright-main; }
 // Font size helpers
 .large { font-size: 1.7em; }
 .medium { font-size: 1.2em; }
-.small { font-size: 0.9em; }
+.small { font-size: 0.8em; }
 
 // Font weight helpers
 .weight300 { font-weight: 300; }
@@ -119,7 +121,7 @@ a.link-neutral-dark {
   background: $neutral-dark;
   text-decoration: none;
   color: $text;
-  padding: $padding; 
+  padding: $padding / 1.5; 
   font-weight: 300;
 }
 
@@ -127,7 +129,7 @@ a.link-neutral-light {
   background: $neutral-light;
   text-decoration: none;
   color: $text;
-  padding: $padding; 
+  padding: $padding / 1.5; 
   font-weight: 300;
 }
 
@@ -135,7 +137,7 @@ a.link-bright-main {
   background: $bright-main;
   text-decoration: none;
   color: $text;
-  padding: $padding; 
+  padding: $padding / 1.5; 
   font-weight: 300;
 }
 
@@ -143,7 +145,7 @@ a.link-bright-alt {
   background: $bright-alt;
   text-decoration: none;
   color: $text;
-  padding: $padding; 
+  padding: $padding / 1.5; 
   font-weight: 300;
 }
 

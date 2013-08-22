@@ -1,0 +1,16 @@
+---
+layout: default
+title: Liz Abinante &middot; le blog &middot; sassy lady knitter nerd
+---
+
+<div id="blog">
+  <div class="topdot">
+    {% for post in site.categories.blog %}
+      <p>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></span></h3>
+        <span class="meta-date">{{ post.date | date_to_string }}</span> &middot;
+        <span class="small">{{ post.categories | array_to_sentence_string }}</span>
+      </p>
+    {% endfor %}
+  </div>
+</div>

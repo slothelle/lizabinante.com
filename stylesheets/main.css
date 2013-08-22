@@ -1,0 +1,253 @@
+/* line 3, ../sass/main.scss */
+body {
+  font-family: "proxima-nova", Arial, sans-serif;
+  color: #333333;
+}
+
+/* line 8, ../sass/main.scss */
+p {
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+/* line 13, ../sass/main.scss */
+a {
+  color: #2bd4be;
+  text-decoration: none;
+}
+
+/* line 14, ../sass/main.scss */
+a:hover {
+  color: #ff4411;
+}
+
+/* line 17, ../sass/main.scss */
+#home {
+  padding-top: 50px;
+  text-align: right;
+}
+/* line 20, ../sass/main.scss */
+#home h1 {
+  font-size: 3em;
+}
+
+/* line 26, ../sass/main.scss */
+.menu {
+  padding-top: 50px;
+}
+/* line 28, ../sass/main.scss */
+.menu p {
+  margin-bottom: 30px;
+}
+
+/* line 34, ../sass/main.scss */
+h1, h2 {
+  font-family: "lust", Georgia, serif;
+  font-weight: 400;
+}
+
+/* line 41, ../sass/main.scss */
+#blog .meta-date {
+  font-family: "proxima-nova", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 5px;
+  color: #ff4411;
+  font-weight: 700;
+}
+/* line 50, ../sass/main.scss */
+#blog .topdot {
+  border-top: 1px dotted #bac0ac;
+  margin-top: 40px;
+  padding-top: 30px;
+}
+/* line 56, ../sass/main.scss */
+#blog ul, #blog li {
+  line-height: 2em;
+}
+
+/* line 62, ../sass/main.scss */
+.icony {
+  padding: 10px;
+}
+
+/* line 63, ../sass/main.scss */
+a.icony {
+  color: #ff4411;
+  text-decoration: none;
+}
+
+/* line 64, ../sass/main.scss */
+a.icony:hover {
+  color: #2bd4be;
+}
+
+/* line 67, ../sass/main.scss */
+.neutral-dark {
+  color: #98a89e;
+}
+
+/* line 68, ../sass/main.scss */
+.neutral-light {
+  color: #bac0ac;
+}
+
+/* line 69, ../sass/main.scss */
+.bright-main {
+  color: #2bd4be;
+}
+
+/* line 70, ../sass/main.scss */
+.bright-alt {
+  color: #ff4411;
+}
+
+/* line 73, ../sass/main.scss */
+.back-neutral-dark {
+  background: #98a89e;
+}
+
+/* line 74, ../sass/main.scss */
+.back-neutral-light {
+  background: #bac0ac;
+}
+
+/* line 75, ../sass/main.scss */
+.back-bright-main {
+  background: #2bd4be;
+}
+
+/* line 76, ../sass/main.scss */
+.back-bright-alt {
+  background: #ff4411;
+}
+
+/* line 79, ../sass/main.scss */
+.height0x {
+  min-height: 5px;
+}
+
+/* line 80, ../sass/main.scss */
+.height1x {
+  min-height: 25px;
+}
+
+/* line 81, ../sass/main.scss */
+.height2x {
+  min-height: 50px;
+}
+
+/* line 82, ../sass/main.scss */
+.height3x {
+  min-height: 70px;
+}
+
+/* line 83, ../sass/main.scss */
+.height4x {
+  min-height: 90px;
+}
+
+/* line 86, ../sass/main.scss */
+.center {
+  text-align: center;
+}
+
+/* line 87, ../sass/main.scss */
+.right {
+  text-align: right;
+}
+
+/* line 90, ../sass/main.scss */
+.large {
+  font-size: 1.7em;
+}
+
+/* line 91, ../sass/main.scss */
+.medium {
+  font-size: 1.2em;
+}
+
+/* line 92, ../sass/main.scss */
+.small {
+  font-size: 0.9em;
+}
+
+/* line 95, ../sass/main.scss */
+.weight300 {
+  font-weight: 300;
+}
+
+/* line 96, ../sass/main.scss */
+.weight400 {
+  font-weight: 400;
+}
+
+/* line 97, ../sass/main.scss */
+.weight700 {
+  font-weight: 700;
+}
+
+/* line 98, ../sass/main.scss */
+.weight900 {
+  font-weight: 900;
+}
+
+/* line 101, ../sass/main.scss */
+a.link-neutral-dark {
+  background: #98a89e;
+  text-decoration: none;
+  color: #333333;
+  padding: 10px;
+  font-weight: 300;
+}
+
+/* line 109, ../sass/main.scss */
+a.link-neutral-light {
+  background: #bac0ac;
+  text-decoration: none;
+  color: #333333;
+  padding: 10px;
+  font-weight: 300;
+}
+
+/* line 117, ../sass/main.scss */
+a.link-bright-main {
+  background: #2bd4be;
+  text-decoration: none;
+  color: #333333;
+  padding: 10px;
+  font-weight: 300;
+}
+
+/* line 125, ../sass/main.scss */
+a.link-bright-alt {
+  background: #ff4411;
+  text-decoration: none;
+  color: #333333;
+  padding: 10px;
+  font-weight: 300;
+}
+
+/* line 133, ../sass/main.scss */
+a.link-neutral-dark:hover {
+  background: #2bd4be;
+  text-decoration: none;
+}
+
+/* line 138, ../sass/main.scss */
+a.link-neutral-light:hover {
+  background: #ff4411;
+  text-decoration: none;
+}
+
+/* line 143, ../sass/main.scss */
+a.link-bright-main:hover {
+  background: #98a89e;
+  text-decoration: none;
+}
+
+/* line 148, ../sass/main.scss */
+a.link-bright-alt:hover {
+  background: #bac0ac;
+  text-decoration: none;
+}

@@ -6,31 +6,43 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
+        <!-- Resopnsive grid http://responsivegridsystem.com -->
+        <link rel="stylesheet" href="/stylesheets/minified-grid.css">
+
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/stylesheets/syntax.css">
-        <link rel="stylesheet" href="/stylesheets/typography.css">
-        <link rel="stylesheet" href="/stylesheets/minified-grid.css">
-        <link rel="stylesheet" href="/stylesheets/main.css">
-        <link rel="stylesheet" href="/stylesheets/sticky-footer.css">
 
-        <!-- Google fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/stylesheets/main.css">
+
+        <!-- Font Awesome CDN -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     </head>
     <body>
+        <div class="section group">
+            <div class="col span_1_of_5">
+                {% include nav.html %}
+            </div>
+            <div class="col span_3_of_5">
+                <div id="content">
+                    {{ content }}
+                </div>
+            </div>
+            <div class="col span_1_of_5">
+                <!-- Empty div spacer -->
+            </div>
+        </div>
+        
 
-      <div id="wrap">
-        <nav></nav>
-        <header></header>
-        <section></section>      
-      </div>
+    <!-- Typekit fonts -->
+    <script type="text/javascript" src="//use.typekit.net/gup2bfq.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-    <div id="footer"> 
-        <footer>
-          {% include _footer.html %}
-        </footer>
-    </div>
-
+    <!-- Responsive grid -->
     <script src="/js/modernizr-2.5.3-min.js"></script>
     <script src="/js/selectivizr-min.js"></script>
+
+    <!-- jQuery Google CDN -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     </body>
 </html>

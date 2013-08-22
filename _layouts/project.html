@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div id="blog">
+  <p> 
+  <div class="section group topdot">
+    <div class="col span_1_of_2"><h2><a href="{{ page.liveurl }}">{{ page.title }}</a></h2></div>
+    <div class="col span_1_of_2 right">
+      <span class="meta-date">
+          <a href="{{ page.repo }}">View on Github</a></span><br>
+          <span class="meta-date">{{ page.tech }}</span>
+    </div>
+  </div>
+
+    <p>
+        {{ page.content }}
+    </p>
+
+    <p>
+      <a href="{{ page.liveurl }}"><img src="{{ page.screenshot }}" width="100%"></a>
+    </p>
+  </p>
+</div>

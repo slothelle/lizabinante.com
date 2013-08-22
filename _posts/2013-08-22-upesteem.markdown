@@ -1,0 +1,12 @@
+---
+layout: project
+title:  "Up Esteem"
+date:   2013-08-22 09:22:43
+categories: project
+repo: "https://github.com/feministy/upesteem.me"
+liveurl: "http://upesteem.me"
+tech: "Sinatra, Ruby, JavaScript, API"
+screenshot: "/assets/upesteem.png"
+---
+
+Up your self esteem with the happiest little website you ever did see. A lightweight Sinatra app that is guaranteed to make you feel better. Using mostly JavaScript, this little app is pretty basic.

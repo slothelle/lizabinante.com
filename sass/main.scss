@@ -15,8 +15,7 @@ a:hover { color: $bright-alt; }
 
 // Landing page specific styles
 #home {
-  padding-top: $padding * 5;
-  text-align: right;
+  padding-top: $padding * 15;
   h1 {
     font-size: 3.5em;
   }
@@ -31,7 +30,7 @@ a:hover { color: $bright-alt; }
 }
 
 // Generic headers
-h1, h2, h3 { 
+h1, h2, h3 {
   font-family: $serif;
   font-weight: 400;
 }
@@ -45,7 +44,7 @@ h1, h2, h3 {
     color: $bright-alt;
     font-weight: 700;
   }
-  
+
   .meta-comment {
     font-family: $font;
     text-transform: uppercase;
@@ -78,8 +77,16 @@ h1, h2, h3 {
   }
 }
 
+.ultra-top { padding-top: $padding * 5; }
+.ultra-right { padding-right: $padding * 3; }
+
 // Icons
-a.icony { color: $bright-alt; text-decoration: none; }
+a.icony {
+  color: $bright-alt;
+  text-decoration: none;
+  padding-right: $padding * 3;
+}
+
 a.icony:hover { color: $bright-main; }
 
 // Text color helpers
@@ -117,54 +124,54 @@ a.icony:hover { color: $bright-main; }
 .weight900 { font-weight: 900; }
 
 // Nav
-a.link-neutral-dark { 
+a.link-neutral-dark {
   background: $neutral-dark;
   text-decoration: none;
   color: $text;
-  padding: $padding / 1.5; 
+  padding: $padding / 1.5;
   font-weight: 300;
 }
 
-a.link-neutral-light { 
+a.link-neutral-light {
   background: $neutral-light;
   text-decoration: none;
   color: $text;
-  padding: $padding / 1.5; 
+  padding: $padding / 1.5;
   font-weight: 300;
 }
 
-a.link-bright-main { 
+a.link-bright-main {
   background: $bright-main;
   text-decoration: none;
   color: $text;
-  padding: $padding / 1.5; 
+  padding: $padding / 1.5;
   font-weight: 300;
 }
 
-a.link-bright-alt { 
+a.link-bright-alt {
   background: $bright-alt;
   text-decoration: none;
   color: $text;
-  padding: $padding / 1.5; 
+  padding: $padding / 1.5;
   font-weight: 300;
 }
 
-a.link-neutral-dark:hover { 
+a.link-neutral-dark:hover {
   background: $bright-main;
   text-decoration: none;
 }
 
-a.link-neutral-light:hover { 
+a.link-neutral-light:hover {
   background: $bright-alt;
   text-decoration: none;
 }
 
-a.link-bright-main:hover { 
+a.link-bright-main:hover {
   background: $neutral-dark;
   text-decoration: none;
 }
 
-a.link-bright-alt:hover { 
+a.link-bright-alt:hover {
   background: $neutral-light;
   text-decoration: none;
 }

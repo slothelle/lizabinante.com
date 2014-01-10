@@ -1,14 +1,14 @@
-<p> 
-  <div class="section group topdot">
-    <div class="col span_5_of_6"><h2><a href="{{ page.url }}">{{ page.title }}</a></h2></div>
-    <div class="col span_1_of_6 right">
-      <span class="meta-date">
-          {{ page.date | date_to_string }}
-      </span>
-    </div>
-  </div>
+---
+layout: default
+---
 
-  <p>
-    {{ page.content }}
-  </p>
+<h1>
+  <a href="{{ page.url }}">{{ page.title }}</a>
+</h1>
+
+<p class="small">
+  {{ page.date | date: "%-d %B %Y" }} &bull;
+  <span class="uppercase accent">{{ page.categories | array_to_sentence_string }}</span>
 </p>
+
+{{ content }}

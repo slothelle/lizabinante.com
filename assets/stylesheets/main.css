@@ -1,0 +1,148 @@
+/* line 3, ../sass/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "brandon-grotesque";
+  text-transform: uppercase;
+}
+
+/* line 8, ../sass/_typography.scss */
+.intro {
+  font-family: "brandon-grotesque";
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.8em;
+  color: #555556;
+  margin-bottom: 10px;
+}
+
+/* line 19, ../sass/_typography.scss */
+.accent {
+  font-family: "brandon-grotesque";
+}
+
+/* line 23, ../sass/_typography.scss */
+.dark-gray {
+  color: #555556;
+}
+
+/* line 27, ../sass/_typography.scss */
+.italic {
+  font-style: italic;
+}
+
+/* line 31, ../sass/_typography.scss */
+.bold300 {
+  font-weight: 300;
+}
+
+/* line 35, ../sass/_typography.scss */
+.bold700 {
+  font-weight: 700;
+}
+
+/* line 39, ../sass/_typography.scss */
+.bold900 {
+  font-weight: 900;
+}
+
+/* line 43, ../sass/_typography.scss */
+.large {
+  font-size: 2em;
+  line-height: 1em;
+}
+
+/* line 48, ../sass/_typography.scss */
+.middle-gray {
+  color: #7c7c7c;
+}
+
+/* line 52, ../sass/_typography.scss */
+.serif {
+  font-family: "museo-slab";
+}
+
+/* line 56, ../sass/_typography.scss */
+.small {
+  font-size: 0.8em;
+}
+
+/* line 60, ../sass/_typography.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 4, ../sass/main.scss */
+body {
+  font-family: "museo-slab";
+  font-size: 1em;
+  background: #eeeeee;
+  color: #555556;
+}
+
+/* line 11, ../sass/main.scss */
+p {
+  line-height: 1.75em;
+  text-align: justify;
+  color: #7c7c7c;
+}
+
+/* line 17, ../sass/main.scss */
+a {
+  text-decoration: none;
+  font-weight: 300;
+  color: #b08cff;
+}
+
+/* line 23, ../sass/main.scss */
+#header {
+  padding-top: 15px;
+  border-bottom: 5px solid #b08cff;
+}
+/* line 26, ../sass/main.scss */
+#header a {
+  color: #7c7c7c;
+  font-weight: 300;
+}
+
+/* line 32, ../sass/main.scss */
+#face {
+  float: left;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+/* line 39, ../sass/main.scss */
+#name {
+  margin-left: 180px;
+  padding: 10px 10px 40px 15px;
+  line-height: 0.5em;
+}
+
+/* line 45, ../sass/main.scss */
+#nav {
+  padding-top: 20px;
+}
+/* line 47, ../sass/main.scss */
+#nav ul.nav {
+  display: inline;
+}
+/* line 49, ../sass/main.scss */
+#nav ul.nav li {
+  display: inline;
+  padding-right: 10px;
+  line-height: 0.5em;
+}
+
+/* line 57, ../sass/main.scss */
+.circle {
+  vertical-align: middle;
+  border: 0;
+  border-radius: 50%;
+}
+
+/* line 63, ../sass/main.scss */
+div.hr {
+  margin: 20px 0px 10px 0px;
+  height: 3px;
+  background: #e3d8ff;
+}

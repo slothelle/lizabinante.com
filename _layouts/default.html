@@ -6,41 +6,68 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+        <!-- Syntax highlighting CSS -->
+        <link rel="stylesheet" href="/assets/stylesheets/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/assets/stylesheets/main.css">
+
+        <!-- Resopnsive grid http://responsivegridsystem.com -->
+        <link rel="stylesheet" href="/assets/stylesheets/minified-grid.css">
+
+        <!-- Sticky footer http://www.cssstickyfooter.com/ -->
+        <link rel="stylesheet" href="/assets/stylesheets/sticky-footer.css">
 
     </head>
     <body>
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
+      <div id="wrap">
+        <div id="main">
+          <div id="header">
+            <div id="face">
+              <img src="/assets/images/about/face.jpg" width="150px" class="circle">
             </div>
-
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
+            <div id="name">
+              <p class="intro">
+                {{ site.name }}
+              </p>
+              <span class="middle-gray">
+                The world's peppiest web developer.
+              </span>
+              <div id="nav" class="accent uppercase small">
+                <ul class="nav">
+                  <li><a href="#">Writing</a></li>
+                  <li>Speaking</li>
+                  <li>Be my friend</li>
+                </ul>
               </div>
             </div>
           </div>
-        </div> <!-- /container -->
 
+          <div id="content">
+            <div class="section group">
+              <div class="col span_1_of_5">
+                <!-- Empty spacer -->
+              </div>
+
+              <div class="col span_3_of_5">
+                {{ content }}
+              </div>
+
+              <div class="col span_1_of_5">
+                <!-- Empty spcaer -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer">
+        &nbsp;
+      </div>
+
+    <!-- typekit -->
+      <script type="text/javascript" src="//use.typekit.net/gup2bfq.js"></script>
+      <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </body>
 </html>

@@ -1,13 +1,30 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Liz Abinante &bull; Web developer with opinions
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="section group">
+  <div class="col span_2_of_5">
+    <p class="intro">Hi, I'm Liz.</p>
+    <p>
+      I am a web developer living in Chicago, hailing from California. Currently I work at <a href="http://instructure.com">Instructure</a> and co-lead the <a href="http://www.girldevelopit.com/">Girl Develop It</a> chapter in <a href="http://www.meetup.com/Girl-Develop-It-Chicago-IL">Chicago</a>.
+    </p>
+  </div>
+  <div class="col span_1_of_5"></div>
+  <div class="col span_2_of_5">
+    <p class="intro">Most recent...</p>
+    <h4>Article</h4>
+    {% assign post = site.categories.blog.first %}
+    <p>
+      {{ post.date | date: "%-d %B %Y" }} &bull; <a href="{{post.url}}">{{ post.title }}</a>
+    </p>
+    <p class="small accent uppercase">{{ post.categories | array_to_sentence_string }}</p>
+    <div class="hr">&nbsp;</div>
+    <h4>Talk</h4>
+    {% assign talk = site.categories.talk.first %}
+    <p>
+      {{ talk.date | date: "%-d %B %Y" }} &bull; <a href="{{talk.url}}">{{ talk.title }}</a>
+    </p>
+    <p class="small accent uppercase">{{ talk.categories | array_to_sentence_string }}</p>
+  </div>
 </div>

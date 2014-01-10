@@ -1,0 +1,30 @@
+---
+layout: default
+title: Liz Abinante writes
+---
+
+<p class="intro">
+  Recent Articles
+</p>
+
+{% for post in site.categories.blog %}
+  <div class="section group">
+    <div class="col span_2_of_5">
+      <h3>
+        {{ post.title }}
+      </h3>
+      <p class="small">
+        {{ post.date | date: "%-d %B %Y" }} &bull;
+        <span class="uppercase accent">{{ post.categories | array_to_sentence_string }}</span>
+      </p>
+      <p class="accent uppercase small">
+        <a href="{{ post.url }}"><i class="fa fa-arrow-circle-o-right"></i> Read more</a>
+      </p>
+    </div>
+    <div class="col span_3_of_5 post">
+      <p>
+        {{ post.excerpt }}
+      </p>
+    </div>
+  </div>
+{% endfor %}

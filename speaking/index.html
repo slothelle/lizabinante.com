@@ -4,6 +4,33 @@ title: Liz Abinante speaks
 ---
 
 <p class="intro">
+  Upcoming Talks
+</p>
+
+{% for posty in site.categories.upcoming %}
+  <div class="section group">
+    <div class="col span_2_of_5">
+      <h3>
+        {{ posty.title }}
+      </h3>
+      <p class="small">
+        {{ posty.date | date: "%B %Y" }}
+      </p>
+      <p class="accent uppercase small">
+        <a href="{{ posty.linky }}"><i class="fa fa-arrow-circle-o-right"></i> {{ posty.conf }}</a>
+      </p>
+    </div>
+    <div class="col span_3_of_5 posty">
+      <p>
+        {{ posty.excerpt }}
+      </p>
+    </div>
+  </div>
+{% endfor %}
+
+<div class="hr">&nbsp;</div>
+
+<p class="intro">
   Recent Talks
 </p>
 

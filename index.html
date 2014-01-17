@@ -7,18 +7,19 @@ title: Liz Abinante &bull; Web developer with opinions
   <div class="col span_2_of_5">
     <p class="intro">Hi, I'm Liz.</p>
     <p>
-      I am a web developer living in Chicago, hailing from California. Currently I work at <a href="http://instructure.com">Instructure</a>, teach for the <a href="http://www.girldevelopit.com/">Girl Develop It</a> chapter in <a href="http://www.meetup.com/Girl-Develop-It-Chicago-IL">Chicago</a>, and mentor at <a href="http://devbootcamp.com">Dev Bootcamp</a>.
+      I am a very enthusiastic web developer living in Chicago. I am a co-leader <a href="http://www.girldevelopit.com/">Girl Develop It</a> <a href="http://www.meetup.com/Girl-Develop-It-Chicago-IL">Chicago</a> and an engineer at <a href="http://instructure.com">Instructure</a>. I speak, teach, and write about web development, diversity, education, accessibility, and popular culture. I will do just about anything for a good taco.
     </p>
   </div>
   <div class="col span_1_of_5"></div>
   <div class="col span_2_of_5">
-    <p class="intro">Most recent...</p>
+    <p class="intro">Recently</p>
     <h4>Article</h4>
     {% assign post = site.categories.blog.first %}
     <p>
       {{ post.date | date: "%-d %B %Y" }} &bull; <a href="{{post.url}}">{{ post.title }}</a>
     </p>
     <p class="small accent uppercase">{{ post.categories | array_to_sentence_string }}</p>
+
     <div class="hr">&nbsp;</div>
     <h4>Talk</h4>
     {% assign talk = site.categories.talk.first %}
@@ -30,12 +31,21 @@ title: Liz Abinante &bull; Web developer with opinions
 </div>
 
 <div class="section group">
-  <div class="col span_1_of_3"></div>
-  <div class="col span_1_of_3">
+  <div class="col span_1_of_5"></div>
+  <div class="col span_3_of_5">
+    <div class="center">
+    <p class="intro">
+      <h4>Next Talk</h4>
+    </p>
+    {% assign upcoming = site.categories.upcoming.first %}
+    <p class="center">
+      {{ upcoming.title }} at <span class="small accent uppercase"><a href="{{ upcoming.linky }}">{{ upcoming.conf}}</a></span>
+    </p>
+    </div>
     <p class="center icony">
-      <a href="http://github.com/feministy"><i class="fa fa-github fa-3x"></i></a>
-      <a href="http://twitter.com/feministy"><i class="fa fa-twitter fa-3x"></i></a>
+      <a href="http://github.com/feministy"><i class="fa fa-github fa-2x"></i></a>
+      <a href="http://twitter.com/feministy"><i class="fa fa-twitter fa-2x"></i></a>
     </p>
   </div>
-  <div class="col span_1_of_3"></div>
+  <div class="col span_1_of_5"></div>
 </div>

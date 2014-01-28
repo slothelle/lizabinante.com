@@ -1,0 +1,81 @@
+@import 'variables';
+@import 'typography';
+
+body {
+  font-family: $font-serif;
+  font-size: 1em;
+  background: $lightest-gray;
+  color: $dark-gray;
+}
+
+p {
+  line-height: 1.75em;
+  text-align: justify;
+  color: $middle-gray;
+}
+
+.post {
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+a {
+  text-decoration: none;
+  font-weight: 300;
+  color: $purple;
+}
+
+#header {
+  padding-top: 15px;
+  border-bottom: 5px solid $purple;
+  a {
+    color: $middle-gray;
+    font-weight: 300;
+  }
+}
+
+#face {
+  float: left;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+#name {
+  margin-left: 180px;
+  padding: 10px 10px 40px 15px;
+  line-height: 0.5em;
+}
+
+#nav {
+  padding-top: 20px;
+  ul.nav {
+    display: inline;
+    li {
+      display: inline;
+      padding-right: 10px;
+      line-height: 0.5em;
+    }
+  }
+}
+
+.circle {
+  vertical-align: middle;
+  border: 0;
+  border-radius: 50%;
+}
+
+div.hr {
+  margin: 20px 0px 10px 0px;
+  height: 3px;
+  background: $light-purple;
+}
+
+.icony {
+  margin-top: 40px;
+  a {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

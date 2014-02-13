@@ -4,14 +4,14 @@
 body {
   font-family: $font-serif;
   font-size: 1em;
-  background: $lightest-gray;
-  color: $dark-gray;
+  background: #eeeeee;
+  color: $text;
 }
 
 p {
   line-height: 1.75em;
   text-align: justify;
-  color: $middle-gray;
+  color: $text;
 }
 
 .post {
@@ -23,53 +23,26 @@ p {
 a {
   text-decoration: none;
   font-weight: 300;
-  color: $purple;
+  color: $orange;
 }
 
-#header {
-  padding-top: 15px;
-  border-bottom: 5px solid $purple;
+h1 {
+  color: $slate;
   a {
-    color: $middle-gray;
-    font-weight: 300;
+    color: $slate;
   }
 }
 
-#face {
-  float: left;
-  margin-top: 30px;
-  margin-left: 10px;
-  padding: 10px;
-}
-
-#name {
-  margin-left: 180px;
-  padding: 10px 10px 40px 15px;
-  line-height: 0.5em;
-}
-
-#nav {
-  padding-top: 20px;
-  ul.nav {
-    display: inline;
-    li {
-      display: inline;
-      padding-right: 10px;
-      line-height: 0.5em;
-    }
+h2 {
+  a {
+    color: $mustard;
   }
 }
 
-.circle {
-  vertical-align: middle;
-  border: 0;
-  border-radius: 50%;
-}
-
-div.hr {
-  margin: 20px 0px 10px 0px;
-  height: 3px;
-  background: $light-purple;
+h3 {
+  a {
+    color: $mustard;
+  }
 }
 
 .icony {
@@ -77,5 +50,53 @@ div.hr {
   a {
     padding-left: 20px;
     padding-right: 20px;
+    color: $teal;
   }
 }
+
+#header {
+  padding: 80px 0px 10px 0px;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.circle-img {
+  vertical-align: middle;
+  border: 0;
+  border-radius: 50%;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  display: inline-block;
+  margin: 10px;
+  &.orange {
+    @extend %backgroundColorOrange;
+  }
+  &.mustard {
+    @extend %backgroundColorMustard;
+  }
+  &.teal {
+    @extend %backgroundColorTeal;
+  }
+  &.slate {
+    @extend %backgroundColorSlate;
+  }
+}
+
+// SASS EXTEND HELPERS
+
+// BACKGROUND COLORS
+%backgroundColorOrange { background-color: $orange; }
+%backgroundColorGray { background-color: $gray; }
+%backgroundColorMustard { background-color: $mustard; }
+%backgroundColorTeal { background-color: $teal; }
+%backgroundColorSlate { background-color: $slate; }
+%backgroundColorText { background-color: $text; }

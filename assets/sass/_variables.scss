@@ -1,13 +1,12 @@
 // fonts
-$font-sans: 'proxima-nova';
-$font-serif: 'museo-slab';
-$font-accent: 'brandon-grotesque';
+$font-sans: 'proxima-nova', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-serif: 'museo-slab', "Georgia", serif;
+$font-accent: 'brandon-grotesque', "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // colors
-$lightest-gray: #eeeeee;
-$light-gray: #dddddd;
-$middle-gray: #7c7c7c;
-$dark-gray: #555556;
-$darkest-gray: #333333;
-$purple: #B08CFF;
-$light-purple: #e3d8ff;
+$orange: #F04C16;
+$gray: #DBDBD0;
+$mustard: #EDBD1F;
+$teal: #4CB09C;
+$slate: #313B4A;
+$text: #333333;

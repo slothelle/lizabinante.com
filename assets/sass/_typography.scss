@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 1.8em;
-  color: $dark-gray;
+  color: $text;
   margin-bottom: 10px;
 }
 
@@ -22,10 +22,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .center {
   text-align: center;
-}
-
-.dark-gray {
-  color: $dark-gray;
 }
 
 .italic {
@@ -47,10 +43,6 @@ h1, h2, h3, h4, h5, h6 {
 .large {
   font-size: 2em;
   line-height: 1em;
-}
-
-.middle-gray {
-  color: $middle-gray;
 }
 
 .serif {

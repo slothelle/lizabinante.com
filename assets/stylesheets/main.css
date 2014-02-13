@@ -1,22 +1,22 @@
 /* line 3, ../sass/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "brandon-grotesque";
+  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
 
 /* line 8, ../sass/_typography.scss */
 .intro {
-  font-family: "brandon-grotesque";
+  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 1.8em;
-  color: #555556;
+  color: #333333;
   margin-bottom: 10px;
 }
 
 /* line 19, ../sass/_typography.scss */
 .accent {
-  font-family: "brandon-grotesque";
+  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 23, ../sass/_typography.scss */
@@ -25,69 +25,59 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 27, ../sass/_typography.scss */
-.dark-gray {
-  color: #555556;
-}
-
-/* line 31, ../sass/_typography.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 35, ../sass/_typography.scss */
+/* line 31, ../sass/_typography.scss */
 .bold300 {
   font-weight: 300;
 }
 
-/* line 39, ../sass/_typography.scss */
+/* line 35, ../sass/_typography.scss */
 .bold700 {
   font-weight: 700;
 }
 
-/* line 43, ../sass/_typography.scss */
+/* line 39, ../sass/_typography.scss */
 .bold900 {
   font-weight: 900;
 }
 
-/* line 47, ../sass/_typography.scss */
+/* line 43, ../sass/_typography.scss */
 .large {
   font-size: 2em;
   line-height: 1em;
 }
 
-/* line 52, ../sass/_typography.scss */
-.middle-gray {
-  color: #7c7c7c;
-}
-
-/* line 56, ../sass/_typography.scss */
+/* line 48, ../sass/_typography.scss */
 .serif {
-  font-family: "museo-slab";
+  font-family: "museo-slab", "Georgia", serif;
 }
 
-/* line 60, ../sass/_typography.scss */
+/* line 52, ../sass/_typography.scss */
 .small {
   font-size: 0.8em;
 }
 
-/* line 64, ../sass/_typography.scss */
+/* line 56, ../sass/_typography.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
 /* line 4, ../sass/main.scss */
 body {
-  font-family: "museo-slab";
+  font-family: "museo-slab", "Georgia", serif;
   font-size: 1em;
   background: #eeeeee;
-  color: #555556;
+  color: #333333;
 }
 
 /* line 11, ../sass/main.scss */
 p {
   line-height: 1.75em;
   text-align: justify;
-  color: #7c7c7c;
+  color: #333333;
 }
 
 /* line 18, ../sass/main.scss */
@@ -99,70 +89,84 @@ p {
 a {
   text-decoration: none;
   font-weight: 300;
-  color: #b08cff;
+  color: #f04c16;
 }
 
 /* line 29, ../sass/main.scss */
+h1 {
+  color: #313b4a;
+}
+/* line 31, ../sass/main.scss */
+h1 a {
+  color: #313b4a;
+}
+
+/* line 37, ../sass/main.scss */
+h2 a {
+  color: #edbd1f;
+}
+
+/* line 43, ../sass/main.scss */
+h3 a {
+  color: #edbd1f;
+}
+
+/* line 48, ../sass/main.scss */
+.icony {
+  margin-top: 40px;
+}
+/* line 50, ../sass/main.scss */
+.icony a {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #4cb09c;
+}
+
+/* line 57, ../sass/main.scss */
 #header {
-  padding-top: 15px;
-  border-bottom: 5px solid #b08cff;
-}
-/* line 32, ../sass/main.scss */
-#header a {
-  color: #7c7c7c;
-  font-weight: 300;
+  padding: 80px 0px 10px 0px;
 }
 
-/* line 38, ../sass/main.scss */
-#face {
-  float: left;
-  margin-top: 30px;
-  margin-left: 10px;
-  padding: 10px;
+/* line 61, ../sass/main.scss */
+.center {
+  text-align: center;
+  margin: 0 auto;
 }
 
-/* line 45, ../sass/main.scss */
-#name {
-  margin-left: 180px;
-  padding: 10px 10px 40px 15px;
-  line-height: 0.5em;
-}
-
-/* line 51, ../sass/main.scss */
-#nav {
-  padding-top: 20px;
-}
-/* line 53, ../sass/main.scss */
-#nav ul.nav {
-  display: inline;
-}
-/* line 55, ../sass/main.scss */
-#nav ul.nav li {
-  display: inline;
-  padding-right: 10px;
-  line-height: 0.5em;
-}
-
-/* line 63, ../sass/main.scss */
-.circle {
+/* line 66, ../sass/main.scss */
+.circle-img {
   vertical-align: middle;
   border: 0;
   border-radius: 50%;
 }
 
-/* line 69, ../sass/main.scss */
-div.hr {
-  margin: 20px 0px 10px 0px;
-  height: 3px;
-  background: #e3d8ff;
+/* line 72, ../sass/main.scss */
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  display: inline-block;
+  margin: 10px;
 }
 
-/* line 75, ../sass/main.scss */
-.icony {
-  margin-top: 40px;
+/* line 97, ../sass/main.scss */
+.circle.orange {
+  background-color: #f04c16;
 }
-/* line 77, ../sass/main.scss */
-.icony a {
-  padding-left: 20px;
-  padding-right: 20px;
+
+/* line 99, ../sass/main.scss */
+.circle.mustard {
+  background-color: #edbd1f;
+}
+
+/* line 100, ../sass/main.scss */
+.circle.teal {
+  background-color: #4cb09c;
+}
+
+/* line 101, ../sass/main.scss */
+.circle.slate {
+  background-color: #313b4a;
 }

@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "museo-slab", "Georgia", serif;
   font-size: 1em;
-  background: #eeeeee;
+  background: #fff;
   color: #333333;
 }
 
@@ -80,67 +80,80 @@ p {
   color: #333333;
 }
 
-/* line 18, ../sass/main.scss */
+/* line 17, ../sass/main.scss */
+.post {
+  margin-top: 40px;
+}
+/* line 19, ../sass/main.scss */
 .post p {
+  font-size: 1.15em;
+  line-height: 2.2em;
   margin-bottom: 20px;
 }
 
-/* line 23, ../sass/main.scss */
+/* line 26, ../sass/main.scss */
 a {
   text-decoration: none;
   font-weight: 300;
   color: #f04c16;
 }
 
-/* line 29, ../sass/main.scss */
+/* line 32, ../sass/main.scss */
 h1 {
   color: #313b4a;
 }
-/* line 31, ../sass/main.scss */
+/* line 34, ../sass/main.scss */
 h1 a {
   color: #313b4a;
 }
 
-/* line 37, ../sass/main.scss */
+/* line 40, ../sass/main.scss */
 h2 a {
   color: #edbd1f;
 }
 
-/* line 43, ../sass/main.scss */
+/* line 46, ../sass/main.scss */
 h3 a {
   color: #edbd1f;
 }
 
-/* line 48, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 .icony {
   margin-top: 40px;
 }
-/* line 50, ../sass/main.scss */
+/* line 53, ../sass/main.scss */
 .icony a {
   padding-left: 20px;
   padding-right: 20px;
   color: #4cb09c;
 }
 
-/* line 57, ../sass/main.scss */
+/* line 60, ../sass/main.scss */
 #header {
   padding: 80px 0px 10px 0px;
 }
 
-/* line 61, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
+.footer {
+  border-top: 1px solid #edbd1f;
+  margin: 50px;
+  padding: 50px;
+}
+
+/* line 70, ../sass/main.scss */
 .center {
   text-align: center;
   margin: 0 auto;
 }
 
-/* line 66, ../sass/main.scss */
+/* line 75, ../sass/main.scss */
 .circle-img {
   vertical-align: middle;
   border: 0;
   border-radius: 50%;
 }
 
-/* line 72, ../sass/main.scss */
+/* line 81, ../sass/main.scss */
 .circle {
   width: 100px;
   height: 100px;
@@ -151,22 +164,22 @@ h3 a {
   margin: 10px;
 }
 
-/* line 97, ../sass/main.scss */
+/* line 106, ../sass/main.scss */
 .circle.orange {
   background-color: #f04c16;
 }
 
-/* line 99, ../sass/main.scss */
+/* line 108, ../sass/main.scss */
 .circle.mustard {
   background-color: #edbd1f;
 }
 
-/* line 100, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 .circle.teal {
   background-color: #4cb09c;
 }
 
-/* line 101, ../sass/main.scss */
+/* line 110, ../sass/main.scss */
 .circle.slate {
   background-color: #313b4a;
 }

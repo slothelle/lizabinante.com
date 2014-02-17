@@ -2,4 +2,4 @@ name: Liz Abinante
 markdown: redcarpet
 pygments: true
 paginate: 5
-permalink: /articles/:year/:title.html
+permalink: /things/:year/:title.html

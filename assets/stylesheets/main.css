@@ -1,185 +1,115 @@
-/* line 3, ../sass/_typography.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-}
-
-/* line 8, ../sass/_typography.scss */
-.intro {
-  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 1.8em;
-  color: #333333;
-  margin-bottom: 10px;
-}
-
-/* line 19, ../sass/_typography.scss */
-.accent {
-  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-/* line 23, ../sass/_typography.scss */
-.center {
-  text-align: center;
-}
-
-/* line 27, ../sass/_typography.scss */
-.italic {
-  font-style: italic;
-}
-
-/* line 31, ../sass/_typography.scss */
-.bold300 {
-  font-weight: 300;
-}
-
-/* line 35, ../sass/_typography.scss */
-.bold700 {
-  font-weight: 700;
-}
-
-/* line 39, ../sass/_typography.scss */
-.bold900 {
-  font-weight: 900;
-}
-
-/* line 43, ../sass/_typography.scss */
-.large {
-  font-size: 2em;
-  line-height: 1em;
-}
-
-/* line 48, ../sass/_typography.scss */
-.serif {
-  font-family: "museo-slab", "Georgia", serif;
-}
-
-/* line 52, ../sass/_typography.scss */
-.small {
-  font-size: 0.8em;
-}
-
-/* line 56, ../sass/_typography.scss */
-.uppercase {
-  text-transform: uppercase;
-}
-
-/* line 4, ../sass/main.scss */
+/* line 3, ../sass/main.scss */
 body {
-  font-family: "museo-slab", "Georgia", serif;
-  font-size: 1em;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
   background: #fff;
   color: #333333;
 }
 
-/* line 11, ../sass/main.scss */
+/* line 10, ../sass/main.scss */
+a {
+  color: #1bbfa1;
+  text-decoration: none;
+  -webkit-transition: all 800ms;
+  -moz-transition: all 800ms;
+  -o-transition: all 800ms;
+  -ms-transition: all 800ms;
+  transition: all 800ms;
+}
+/* line 14, ../sass/main.scss */
+a:hover {
+  color: #7e7180;
+}
+
+/* line 19, ../sass/main.scss */
 p {
   line-height: 1.75em;
   text-align: justify;
   color: #333333;
-}
-
-/* line 17, ../sass/main.scss */
-.post {
-  margin-top: 40px;
-}
-/* line 19, ../sass/main.scss */
-.post p {
-  font-size: 1.15em;
-  line-height: 2.2em;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
 /* line 26, ../sass/main.scss */
-a {
-  text-decoration: none;
-  font-weight: 300;
-  color: #f04c16;
+.pad-small {
+  padding: 15px;
 }
 
-/* line 32, ../sass/main.scss */
-h1 {
-  color: #313b4a;
+/* line 30, ../sass/main.scss */
+.pad-bottom {
+  margin-bottom: 80px;
 }
+
 /* line 34, ../sass/main.scss */
-h1 a {
-  color: #313b4a;
+.pad-bottom-small {
+  margin-bottom: 30px;
 }
 
-/* line 40, ../sass/main.scss */
-h2 a {
-  color: #edbd1f;
+/* line 38, ../sass/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
-/* line 46, ../sass/main.scss */
-h3 a {
-  color: #edbd1f;
+/* line 44, ../sass/main.scss */
+h1.intro {
+  font-size: 1.75em;
+  text-align: center;
 }
 
-/* line 51, ../sass/main.scss */
-.icony {
-  margin-top: 40px;
+/* line 49, ../sass/main.scss */
+.script {
+  font-family: "lust-script-display", cursive;
+  text-transform: none;
 }
-/* line 53, ../sass/main.scss */
-.icony a {
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #4cb09c;
+
+/* line 55, ../sass/main.scss */
+h1 .script {
+  font-size: 2.5em;
 }
 
 /* line 60, ../sass/main.scss */
-#header {
-  padding: 80px 0px 10px 0px;
+h2.script {
+  font-size: 2.5em;
 }
 
 /* line 64, ../sass/main.scss */
-.footer {
-  border-top: 1px solid #edbd1f;
-  margin: 50px;
-  padding: 50px;
-}
-
-/* line 70, ../sass/main.scss */
-.center {
-  text-align: center;
+#container {
+  max-width: 800px;
   margin: 0 auto;
 }
 
-/* line 75, ../sass/main.scss */
-.circle-img {
-  vertical-align: middle;
-  border: 0;
-  border-radius: 50%;
+/* line 69, ../sass/main.scss */
+#main {
+  padding: 100px 0px;
+}
+
+/* line 73, ../sass/main.scss */
+.center {
+  text-align: center;
+}
+
+/* line 77, ../sass/main.scss */
+.small {
+  font-size: 75%;
 }
 
 /* line 81, ../sass/main.scss */
-.circle {
-  width: 100px;
-  height: 100px;
-  border-radius: 200px;
-  -webkit-border-radius: 200px;
-  -moz-border-radius: 200px;
-  display: inline-block;
-  margin: 10px;
+.img-circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 0.39);
+  box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 0.39);
 }
 
-/* line 106, ../sass/main.scss */
-.circle.orange {
-  background-color: #f04c16;
+/* line 88, ../sass/main.scss */
+.large {
+  font-size: 1.75em;
 }
 
-/* line 108, ../sass/main.scss */
-.circle.mustard {
-  background-color: #edbd1f;
-}
-
-/* line 109, ../sass/main.scss */
-.circle.teal {
-  background-color: #4cb09c;
-}
-
-/* line 110, ../sass/main.scss */
-.circle.slate {
-  background-color: #313b4a;
+/* line 92, ../sass/main.scss */
+.uppercase {
+  text-transform: uppercase;
 }

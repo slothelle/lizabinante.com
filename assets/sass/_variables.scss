@@ -1,12 +1,26 @@
 // fonts
 $font-sans: 'proxima-nova', "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-serif: 'museo-slab', "Georgia", serif;
 $font-accent: 'brandon-grotesque', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-script: 'lust-script-display', cursive;
 
 // colors
-$orange: #F04C16;
-$gray: #DBDBD0;
-$mustard: #EDBD1F;
-$teal: #4CB09C;
-$slate: #313B4A;
-$text: #333333;
+$teal: #1BBFA1;
+$gray: #7E7180;
+$coral: #FF4F4B;
+$navy: #133640;
+$text: #333;
+
+// mixins
+@mixin transitionAll($time: 300ms) {
+  -webkit-transition: all $time;
+  -moz-transition: all $time;
+  -o-transition: all $time;
+  -ms-transition: all $time;
+  transition: all $time;
+}
+
+@mixin boxShadow {
+  -webkit-box-shadow: 10px 10px 21px -4px rgba(0,0,0,0.39);
+  -moz-box-shadow: 10px 10px 21px -4px rgba(0,0,0,0.39);
+  box-shadow: 10px 10px 21px -4px rgba(0,0,0,0.39);
+}

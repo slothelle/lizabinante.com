@@ -2,38 +2,48 @@
 layout: default
 title: Liz Abinante &bull; Web developer with opinions
 ---
-<p>
+<p class="pad-bottom">
   I am a very enthusiastic web developer living in Chicago. I am a co-leader <a href="http://www.girldevelopit.com/">Girl Develop It</a> <a href="http://www.meetup.com/Girl-Develop-It-Chicago-IL">Chicago</a> and an engineer at <a href="http://instructure.com">Instructure</a>. I speak, teach, and write about web development, diversity, education, accessibility, and popular culture. I will do just about anything for a good taco.
 </p>
 
-<br><br>
-<h2 class="center">Be my friend!</h2>
-<p class="icony center">
-  <a href="mailto:eabinante@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
-  <a href="http://github.com/feministy"><i class="fa fa-github fa-2x"></i></a>
-  <a href="http://twitter.com/feministy"><i class="fa fa-twitter fa-2x"></i></a>
+<p class="large script pad-bottom center">
+  <a href="http://liz.svbtle.com/" class="pad-small">Blog</a><br>
+  <a href="mailto:eabinante@gmail.com" class="pad-small"><i class="fa fa-envelope"></i></a>
+  <a href="http://github.com/feministy" class="pad-small"><i class="fa fa-github"></i></a>
+  <a href="http://twitter.com/feministy" class="pad-small"><i class="fa fa-twitter"></i></a>
 </p>
-<br><br>
 
-<h2>Upcoming Talks</h2>
-{% for post in site.categories.upcoming %}
-  <h3><a href="{{ post.linky }}">{{ post.conf}}</a></h3>
-  <h4><a href="{{post.url}}">{{ post.title }}</a></h4>
-  <p class="small accent uppercase">{{ post.date | date: "%-d %B %Y" }}<br>{{ post.categories | array_to_sentence_string }}</p>
-  <br><br>
-{% endfor %}
+<h2 class="script center pad-bottom-small">Talks</h2>
+<div class="pad-bottom-small">
+  {% for post in site.categories.talk %}
+    <a href="{{post.url}}">{{ post.title }}</a>
+    <p class="pad-bottom-small">
+      <span class="small">
+        {% if post.conf %}
+          Presented at <a href="{{ post.linky }}">{{ post.conf}}</a> on
+        {% endif %}
+        {{ post.date | date: "%B %-d, %Y" }}
+      </span>
+    </p>
+  {% endfor %}
+</div>
 
-<h2>Recent Talks</h2>
-{% for post in site.categories.talk %}
-  <h3><a href="{{ upcoming.linky }}">{{ post.conf}}</a></h3>
-  <h4><a href="{{post.url}}">{{ post.title }}</a></h4>
-  <p class="small accent uppercase">{{ post.date | date: "%-d %B %Y" }}<br>{{ post.categories | array_to_sentence_string }}</p>
-  <br><br>
-{% endfor %}
+<h2 class="script center pad-bottom-small">Interviews</h2>
+<div class="pad-bottom-small">
+  <p class="pad-bottom-small">
+    <a href="http://vimeo.com/86336625">Video</a> for <a href="http://devbootcamp.com/she-codes/">Dev Bootcamp She Codes</a><br>
+    <span class="small">January 2014.<br>"And if anyone gets me in my way, I will find a way around them."</span>
+  </p>
 
-<h2>Articles</h2>
-{% for post in site.categories.blog %}
-  <h3><a href="{{post.url}}">{{ post.title }}</a></h3>
-  <p class="small accent uppercase">{{ post.date | date: "%-d %B %Y" }}<br>{{ post.categories | array_to_sentence_string }}</p>
-  <br><br>
-{% endfor %}
+  <p class="pad-bottom-small">
+    <a href="http://vimeo.com/86425892">Video</a> by <a href="http://www.jenniferstarrs.com/">Jennifer Starrs</a> about women in computing<br>
+    <span class="small">February 2014.<br>"If Abinante can become an engineer in a year, imagine what she'll be doing in 5."</span>
+  </p>
+</div>
+
+
+<div class="center">
+  <h2 class="script pad-bottom-small">Articles</a></h2>
+
+  <a href="http://liz.svbtle.com">Current</a> &bull; <a href="/writing">Previous</a>
+</div>

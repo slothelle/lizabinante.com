@@ -20,9 +20,12 @@ title: Liz Abinante &bull; Web developer with opinions
     <p class="pad-bottom-small">
       <span class="small">
         {% if post.conf %}
-          Presented at <a href="{{ post.linky }}">{{ post.conf}}</a> on
+          <a href="{{ post.linky }}">{{ post.conf}}</a> on
         {% endif %}
         {{ post.date | date: "%B %-d, %Y" }}
+        {% if post.video %}
+          <a href="{{ post.video }}">Watch talk online</a>
+        {% endif %}
       </span>
     </p>
   {% endfor %}

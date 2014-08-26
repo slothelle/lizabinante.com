@@ -1,23 +1,21 @@
 @import 'variables';
 
 body {
-  font-family: $font-sans;
-  font-size: 1.25em;
+  font-family: $font;
+  font-size: 1.1em;
   background: #fff;
   color: $text;
 }
 
 a {
-  color: $teal;
+  color: lighten($text, 20%);
   text-decoration: none;
-  @include transitionAll(800ms);
-  &:hover {
-    color: $gray;
-  }
+  @include transitionAll(500ms);
+  &:hover { color: $yellow; }
 }
 
 p {
-  line-height: 1.75em;
+  line-height: 2em;
   text-align: justify;
   color: $text;
   margin: 0;
@@ -31,39 +29,38 @@ p {
   margin-bottom: 80px;
 }
 
+.pad-top {
+  margin-top: 80px;
+}
+
 .pad-bottom-small {
   margin-bottom: 30px;
+}
+
+.pad-top-small {
+  margin-top: 30px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-accent;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 300;
 }
 
 h1.intro {
-  font-size: 1.75em;
-  text-align: center;
-}
-
-.script {
-  font-family: $font-script;
-  text-transform: none;
-}
-
-h1 {
-  .script {
-    font-size: 2.5em;
-  }
-}
-
-h2.script {
-  font-size: 2.5em;
+  font-size: 2.25em;
 }
 
 #container {
   max-width: 800px;
+  padding: 0 2%;
   margin: 0 auto;
+}
+
+#header {
+  background: $yellow;
+  border-bottom: 5px solid darken($yellow, 20%);
+  min-height: 10px;
 }
 
 #main {
@@ -76,6 +73,10 @@ h2.script {
 
 .small {
   font-size: 75%;
+}
+
+.xsmall {
+  font-size: 50%;
 }
 
 .img-circle {

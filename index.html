@@ -2,21 +2,30 @@
 layout: default
 title: Liz Abinante &bull; Web developer with opinions
 ---
-<p class="pad-bottom">
-  I am a very enthusiastic web developer living in Chicago. I am a co-leader for <a href="http://www.girldevelopit.com/">Girl Develop It</a> <a href="http://www.meetup.com/Girl-Develop-It-Chicago-IL">Chicago</a> and an engineer at <a href="http://instructure.com">Instructure</a>. I speak, teach, and write about web development, diversity, education, accessibility, and popular culture. I will do just about anything for a good taco.
+<p class="pad-bottom-small">
+  Liz Abinante is an engineer living in Portland working for New Relic. She has served as co-leader for the Chicago chapter of Girl Develop It, and currently volunteers as an advisor and for the curriculum review team nationally. She is infectiously enthusiastic about web development, teaching, learning, and feminism. Her greatest dream in life is to spend her entire day surrounded by puppies while coding.
 </p>
 
-<p class="large script pad-bottom center">
-  <a href="http://liz.svbtle.com/" class="pad-small">Blog</a><br>
-  <a href="mailto:eabinante+hello@gmail.com" class="pad-small"><i class="fa fa-envelope"></i></a>
-  <a href="http://github.com/feministy" class="pad-small"><i class="fa fa-github"></i></a>
-  <a href="http://twitter.com/feministy" class="pad-small"><i class="fa fa-twitter"></i></a>
+<h2 class="pad-bottom center">
+  <a href="contact">Contact Liz</a>
+</h2>
+
+<h2 class="pad-bottom-small center">
+  Find more Liz
+</h2>
+<p class="center">
+  <a href="http://twitter.com/feministy" class="pad-small"><i class="fa fa-twitter"></i> I hope you like feminist rants, because that's kinda my thing.</a>
 </p>
 
-<h2 class="script center pad-bottom-small">Talks</h2>
-<div class="pad-bottom-small">
+<p class="center pad-bottom">
+  <a href="http://feministy.io/" class="pad-small"><i class="fa fa-pencil"></i> Blog</a>
+  <a href="http://github.com/feministy" class="pad-small"><i class="fa fa-github"></i> GitHub</a>
+</p>
+
+<h2 class="center pad-bottom-small">Talks</h2>
+<div class="pad-bottom">
   {% for post in site.categories.talk %}
-    <a href="{{post.url}}">{{ post.title }}</a>
+    <a href="{{post.speakerdeck}}">{{ post.title }}</a>
     <p class="pad-bottom-small">
       <span class="small">
         {% if post.conf %}
@@ -49,9 +58,3 @@ title: Liz Abinante &bull; Web developer with opinions
   </p>
 </div>
 
-
-<div class="center">
-  <h2 class="script pad-bottom-small">Articles</a></h2>
-
-  <a href="http://liz.svbtle.com">Current</a> &bull; <a href="/writing">Previous</a>
-</div>

@@ -1,7 +1,7 @@
 ---
 title:  "Teams, long(er)-term projects, and maintainable code"
 date:   2013-07-18 07:22:43
-category: blog
+category: devbootcamp
 ---
 
 Phase 3 feels so much more&nbsp;<em>real</em> to me than phases 1 and 2. We're working on our first multi-day project, which requires a lot more cooperation than something that only takes a day to build. I loved phases 1 and 2, but phase 3 feels real. It feels more like a work environment and I&nbsp;<em>love it so much</em>. We're planning in detail, communicating, sharing the work load, and reviewing each others code. It feels so natural and my team and I have gotten into a really good flow.<br><br>

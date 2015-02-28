@@ -1,7 +1,7 @@
 ---
 title:  "Conversations about wizardry, gender, and diversity"
 date:   2013-06-22 07:22:43
-category: blog
+category: devbootcamp
 ---
 
 Earlier this week, I ran into a <a href="http://feministy.tumblr.com/post/52217646242/web-development-and-more-ruby-newbies" target="_blank">brick wall of sexism</a>. What happened after that was infinitely more interesting than the event itself.&nbsp;<br><br>

@@ -1,7 +1,7 @@
 ---
 title:  "Web development and more Ruby newbies"
 date:   2013-06-21 07:22:43
-category: blog
+category: devbootcamp
 ---
 
 The new cohort arrived on Monday. It's all dudes. <span>I know that the dbc staff are trying as hard as they can to encourage diversity in the field and within the program. I also know that several factors out of their control contributed to the population of the new cohort (the Otters), but it's still frustrating. My learning environment completely changed on Monday with the addition of 16 <em>dudes</em>.&nbsp;&nbsp;</span><br><br>

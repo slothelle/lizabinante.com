@@ -1,7 +1,7 @@
 ---
 title:  "How I got to DevBootcamp: the making of a sassy lady nerd"
 date:   2013-07-01 07:22:43
-category: blog
+category: devbootcamp
 ---
 
 A lot of things in my life happened that resulted in me attending DevBootcamp, but I think it can be boiled down to a few things:<br><br>

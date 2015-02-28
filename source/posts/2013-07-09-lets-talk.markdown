@@ -1,7 +1,7 @@
 ---
 title:  "Let's talk"
 date:   2013-07-09 07:22:43
-category: blog
+category: devbootcamp
 ---
 
 I spent a lot of time in phase 2 on an emotional roller coaster. I felt like a winner, a loser, a spaz, an imposter, a slacker, a bad ass, and a crazy person on a daily basis. Cycling through such intense emotions was exhausting. Was? Is. Still happening.<br><br>

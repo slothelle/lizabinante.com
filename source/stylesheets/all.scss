@@ -1,7 +1,31 @@
 @charset "utf-8";
 
-$text: red;
+@import "compass/css3";
+@import "compass/typography/vertical_rhythm";
 
-body {
-  color: $text;
-}
+// colors and color functions
+@import "colors";
+
+// basic skeleton
+@import "buttons";
+@import "footer";
+@import "layout";
+@import "nav";
+@import "ngDialog";
+
+// vertical rhythm & fonts
+@import "typography";
+
+// single pages only
+@import "converters";
+@import "custom_pattern";
+@import "home";
+@import "pattern";
+@import "patterns";
+
+// last but not least:
+// make shit work on cellphones
+@import "responsive";
+
+// PRINTING ARGHHH
+@import "print";

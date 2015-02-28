@@ -1,0 +1,11 @@
+#custom_pattern {
+  // stuff
+}
+
+.custom_pattern_modal {
+  @include adjust-font-size-to(12px);
+  .header {
+    text-transform: lowercase;
+    padding-bottom: 10px;
+  }
+}

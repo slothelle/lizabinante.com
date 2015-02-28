@@ -1,0 +1,17 @@
+---
+title:  "Teams, long(er)-term projects, and maintainable code"
+date:   2013-07-18 07:22:43
+category: blog
+---
+
+Phase 3 feels so much more&nbsp;<em>real</em> to me than phases 1 and 2. We're working on our first multi-day project, which requires a lot more cooperation than something that only takes a day to build. I loved phases 1 and 2, but phase 3 feels real. It feels more like a work environment and I&nbsp;<em>love it so much</em>. We're planning in detail, communicating, sharing the work load, and reviewing each others code. It feels so natural and my team and I have gotten into a really good flow.<br><br>
+
+Me being me, I've fallen into a natural product management role. I'm assessing where we are in our sprint, where we should be, and any changes we need to make to get there. I spot road blocks and find the resources necessary to destroy them. I keep our stand ups short and on topic. I've color coded our white board with models and associations, and I've been handling our project tasks in Pivotal Tracker. I'm dying - I love it.<br><br>
+
+Working on a project and continuing to work on a project makes me realize how important maintainable code is. Since I've been at Dev Bootcamp, we code, deploy, and run. We move onto the next project and we don't really look back, unless we do it in our personal time.<br><br>
+
+Since we've been learning Rails, I've been working on porting over my knitting pattern generator from Sinatra. Some of the move has been relatively painless, but a few aspects have had me cursing my past self. A little bit for my lack of knowledge, and a little bit for being a hacky brat. It's going to take me awhile to port it over to Rails, and I'm also working on incorporating more JavaScript, which is definitely slowing the process.&nbsp;<span>I&nbsp;</span><em>love</em><span> Rails. I love testing. I can't wait to wait tests for my knitting pattern generator.&nbsp;</span><br><br>
+
+<span>I've started sniffing around for jobs when I have a spare minute or two and thinking about the kind of company I want to look for, and&nbsp;</span>what kind of work I want to do. I've also started thinking about projects for myself during my down time, and I've settled on OO JavaScript, a front-end framework (likely Angular), and Jasmine. This is the first time in the last 7 weeks that I've had time to think about my future in a serious way and what I want to do professionally, and what I want to learn.<br><br>
+
+I want to code. I want to manage. I want to teach. I want to mentor. I want to speak. I want to have fun.</p>

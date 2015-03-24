@@ -2,6 +2,7 @@
 title:  "Women Are In Everything"
 date:   2013-08-15 07:22:43
 category: blog
+tags: blog
 ---
 
 A lot of the time when I describe myself and what I'm passionate about, I end up talking about <em>women in programming</em> or <em>women in engineering</em>. Taking about concepts such as power, oppression, injustice, equality, objectification, etc has been a common theme in my life since I started college.<br><br>

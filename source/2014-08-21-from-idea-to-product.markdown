@@ -3,6 +3,7 @@ layout: talk
 title:  "From Idea to Product: Building Features"
 date:   2014-08-21 07:22:43
 category: talk
+tags: talk
 conf: "Code Chix Madison"
 linky: "http://www.codechix.org/madison/"
 location: "Madison, WI"

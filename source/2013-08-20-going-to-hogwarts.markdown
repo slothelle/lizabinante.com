@@ -2,6 +2,7 @@
 title:  "Going to Hogwarts"
 date:   2013-08-20 07:22:43
 category: blog
+tags: blog
 ---
 
 One of my favorite ways to explain how passionate I am about coding is to compare it to the world of Harry Potter. To me, learning to code is the closest I will ever get to boarding the train to Hogwarts, taking my O.W.Ls, and crushing my N.E.W.Ts. Picking out a new computer and configuring Vim (new obsession) are akin to selecting a wand at Olivander&rsquo;s. I could continue with the comparisons, but I think you get it.<br><br>

@@ -3,6 +3,7 @@ layout: talk
 title:  "Ruby Basics Workshop"
 date:   2014-01-29 07:22:43
 category: talk
+tags: talk
 speakerdeck: "https://speakerdeck.com/feministy/ruby-basics-ruby-in-100-minutes-or-less"
 ---
 

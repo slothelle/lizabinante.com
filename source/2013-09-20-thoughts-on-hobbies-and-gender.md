@@ -2,6 +2,7 @@
 title:  "Thoughts on hobbies and gender, revisited"
 date:   2013-09-20 07:22:43
 category: blog
+tags: blog, gender, hobbies
 ---
 
 It’s no secret or a surprise that knitting is a gendered hobby. Most knitters are women and there is nothing offensive or factually incorrect about that statement. While knitting as a hobby is growing and there are more men and boys participating in the craft, it is still primarily women that pick up the needles and work with yarn.

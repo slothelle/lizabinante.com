@@ -3,6 +3,7 @@ layout: talk
 title:  "How a feature is born"
 date:   2013-11-09 07:22:43
 category: talk
+tags: talk
 speakerdeck: https://speakerdeck.com/feministy/how-a-feature-is-born
 data: 98d694502d3c0131944526bb76d2a5b3
 ratio: 1.2994923857868

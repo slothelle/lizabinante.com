@@ -2,6 +2,7 @@
 title:  "Theory vs. practice and my first days as a developer"
 date:   2013-09-01 07:22:43
 category: blog
+tags: blog
 ---
 
 This has been the start of my first week as a Software Engineer. I work at a real company doing things with code that people actually use. It is awesome, terrifying, thrilling, challenging, and hands down the coolest thing I’ve ever done. I’ve only been poking around in the code base for a few hours a day, but I’ve come to realize that I am going to learn more at this job than I expected.

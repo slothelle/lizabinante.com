@@ -2,6 +2,7 @@
 title:  "Why I wear dresses"
 date:   2013-08-22 07:22:43
 category: blog
+tags: gender, blog
 ---
 
 Since graduating college, I’ve only had one job that required "business casual" attire. I hated that job, partly because a dead-set-in-her-traditional-ways HR representative made snide comments about my wardrobe everyday ("I wish I wasn’t a professional woman so I could wear jeans!"). It was never "business casual" enough for her.

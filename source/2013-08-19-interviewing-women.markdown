@@ -2,6 +2,7 @@
 title:  "Interviewing Women"
 date:   2013-08-19 07:22:43
 category: blog
+tags: blog, interviewing
 ---
 
 One of the things I learned from the interview processes I went through is that the presence of women is important. I present you with two different scenarios.<br><br>

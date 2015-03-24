@@ -2,6 +2,7 @@
 title: "Why I'm here"
 date: 2013-12-20 08:55:15
 category: blog
+tags: blog
 ---
 
 I am here because I love what I do. I love working with Ruby. I love tinkering with JavaScript. I get an absolute thrill over the legitimately amazing things I can do with programming. I'm stoked to learn Clojure. And maybe Scala. Or Python? More things. I'm excited to learn more.
@@ -11,6 +12,7 @@ I am not here because I have an agenda. I have an agenda because I have to have 
 Earlier today when my GitHub profile was used to lend credibility to a repo mocking feminism, rape victims/survivors, and women in general, I wasn't mad. My first reaction was concern for the code that I have access to on GitHub. Was my account compromised? Or worse, was GitHub? Code that isn't mine could be at risk. Code that lots of other people have put many hours into. Code that does good things.
 
 And then, when I figured out it wasn't a security breach, because I'm human, I got mad. GitHub is a source of my abilities as an engineer and a record of my contributions to software development. It is my career. It is also my pride and joy. My proudest achievement in life was becoming an engineer.
+
 But I'm ok. No one threatened me. No one hurt me. They rattled me. I'd be a fool if I tried to lie and say they didn't shake me a little. But I also felt lucky, loved, and supported by more people than the number involved with the filth on GitHub.
 
 I am also still really happy to be here.

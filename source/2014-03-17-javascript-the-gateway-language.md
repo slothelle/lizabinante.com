@@ -3,6 +3,7 @@ layout: talk
 title:  "JavaScript: The Gateway Language, or, Why You Should Teach Your Kids JavaScript"
 date:   2014-03-17 07:22:43
 category: talk
+tags: talk
 conf: "Mountain West JavaScript"
 video: http://www.confreaks.com/videos/3230-mwjs-javascript-a-gateway-language-or-why-you-should-teach-your-kids-javascript
 linky: "http://mtnwestjs.org/2014/"

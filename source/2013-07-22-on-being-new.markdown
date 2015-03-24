@@ -2,6 +2,7 @@
 title:  "On being new"
 date:   2013-07-22 07:22:43
 category: blog
+tags: blog
 ---
 
 Last week I had the pleasure of having lunch at Table XI and taking part in their round table talk for the day, where I gave a Pecha Kucha presentation on what it meant for me to experience being new.&nbsp;<br><br>

@@ -2,10 +2,10 @@
 title:  "Renaming 'soft' and 'hard' skills"
 date:   2013-10-01 07:22:43
 category: blog
+tags: blog, skills
 ---
 
 People in the development community tend to throw around the phrase "soft skills" to describe things that are not directly related to writing code. This isn't exclusive to the development world; lots of people use the term "soft skills" to describe traits that can't be directly attributed to certifiable/measurable skills and specialities. A non-exhaustive list of what "soft skills" typically encompasses would be:
-
 
 * Project, task, or team management
 * Communication
@@ -17,7 +17,6 @@ People in the development community tend to throw around the phrase "soft skills
 I, like many others, am pretty damn tired of referring to these as "soft skills." Many employers actively seek out these attributes in prospective employees, making them near requirements for success in the workforce. If something is a near requirement, why is it "soft"? I'm not a stuffed animal, and neither are these highly relevant job skills.
 
 "Soft" implies that it's less important than it is by using a word to describe the skill set that also means things like "pleasing", "enjoyable", and "subtle effect." To further illustrate my point, here are some words that are synonyms for the many meanings of "soft":
-
 
 * mushy
 * dim

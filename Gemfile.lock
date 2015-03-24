@@ -86,8 +86,11 @@ GEM
       sprockets (~> 2.12.1)
       sprockets-helpers (~> 1.1.0)
       sprockets-sass (~> 1.3.0)
+    mini_portile (0.6.2)
     minitest (5.5.1)
     multi_json (1.10.1)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
     padrino-helpers (0.12.4)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.12.4)
@@ -102,7 +105,6 @@ GEM
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    redcarpet (3.2.2)
     sass (3.4.13)
     sprockets (2.12.3)
       hike (~> 1.2)
@@ -133,5 +135,5 @@ DEPENDENCIES
   builder (~> 3.0)
   middleman (~> 3.3.10)
   middleman-blog (~> 3.5.3)
-  middleman-livereload
-  redcarpet
+  middleman-livereload (~> 3.1.0)
+  nokogiri

@@ -5,12 +5,8 @@
 # Time.zone = "UTC"
 
 activate :blog do |blog|
-  # This will add a prefix to all links, template references and source paths
-  # blog.prefix = "blog"
   blog.name = "liz abinante"
-
   blog.permalink = "{category}/{year}/{title}/"
-  # Matcher for blog source files
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
   # blog.layout = "post"
@@ -21,9 +17,6 @@ activate :blog do |blog|
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
 
-  # blog.tag_template = "tag.html"
-  # blog.calendar_template = "calendar.html"
-
   # Enable pagination
   blog.paginate = true
   blog.per_page = 10
@@ -31,15 +24,6 @@ activate :blog do |blog|
 end
 
 page "/feed.xml", layout: false
-
-###
-# Compass
-###
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
 
 ###
 # Page options, layouts, aliases and proxies
@@ -97,18 +81,9 @@ end
 
 # Build-specific configuration
 configure :build do
-  # For example, change the Compass output style for deployment
-  # activate :minify_css
-
-  # Minify Javascript on build
-  # activate :minify_javascript
-
-  # Enable cache buster
-  # activate :asset_hash
+  activate :minify_css
+  activate :minify_javascript
 
   # Use relative URLs
   # activate :relative_assets
-
-  # Or use a different image path
-  # set :http_prefix, "/Content/images/"
 end

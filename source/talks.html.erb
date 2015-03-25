@@ -1,0 +1,17 @@
+<h1>talks</h1>
+<div class="posts">
+  <% most_recent(blog.articles, "talk").each_with_index do |article, i| %>
+    <div class="post">
+      <p>
+        <%= link_to article.title, article %>
+        <br>
+        <span class="tag"><%= article.date.strftime('%B %e, %Y') %></span>
+        <% article.tags.each do |tag| %>
+          <% if tag != "talk" %>
+            <span class="tag"><%= tag %></span>
+          <% end %>
+        <% end %>
+      </p>
+    </div>
+  <% end %>
+</div>

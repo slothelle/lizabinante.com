@@ -70,7 +70,6 @@ ul.navigation-fake {
 }
 
 #main {
-  margin-top: 80px;
   .description:after {
     content: " \1F44D";
   } 
@@ -99,5 +98,11 @@ small {
   }
   &:last-child:after {
     content: '';
+  }
+}
+
+.post {
+  .title {
+    // stuff
   }
 }

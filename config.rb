@@ -51,11 +51,12 @@ activate :directory_indexes
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def most_recent(articles, tag)
+  def most_recent(articles, tag, number=nil)
+    number = number || articles.length + 1;
     blog = articles.select do |article|
       article.tags.include?(tag)
     end
-    blog[0..2]
+    blog[0..(number-1)]
   end
 end
 

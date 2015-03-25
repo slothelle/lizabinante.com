@@ -6,6 +6,7 @@ category: talk
 tags: talk
 conf: "Mountain West JavaScript"
 video: http://www.confreaks.com/videos/3230-mwjs-javascript-a-gateway-language-or-why-you-should-teach-your-kids-javascript
+embed: "https://www.youtube.com/embed/o8sFYW1NCxg"
 linky: "http://mtnwestjs.org/2014/"
 location: "Salt Lake City, UT"
 speakerdeck: https://speakerdeck.com/feministy/javascript-the-gateway-language-or-why-you-should-teach-your-kids-javascript

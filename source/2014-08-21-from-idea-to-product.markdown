@@ -8,6 +8,8 @@ conf: "Code Chix Madison"
 linky: "http://www.codechix.org/madison/"
 location: "Madison, WI"
 speakerdeck: "https://speakerdeck.com/feministy/from-idea-to-product-building-features"
+ratio: 1.33333333333333
+data: f212b2900b84013275ac52f74ffd8446
 ---
 
 Features don't begin with new code or user interface sketches, they often start with an idea, problem, or complaint. This talk walks through the many different ways concepts become ideas, along with the different roles involved in the process of bringing ideas to life.

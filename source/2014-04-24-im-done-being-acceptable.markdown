@@ -1,5 +1,5 @@
 ---
-title: 'An apology: I'm done being "acceptable."'
+title: "An apology: I'm done being 'acceptable.'"
 category: blog
 tags: blog, feminism
 ---

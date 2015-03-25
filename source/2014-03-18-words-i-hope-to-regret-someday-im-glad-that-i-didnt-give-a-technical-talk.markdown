@@ -1,5 +1,5 @@
 ---
-title: 'Words I hope to regret someday: "I'm glad that I didn't give a technical talk."'
+title: "Words I hope to regret someday: 'I'm glad that I didn't give a technical talk.'"
 category: blog
 tags: blog, confs, talks
 ---

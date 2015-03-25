@@ -18,16 +18,7 @@
     <div id="content" role="main" class="container">
       <div class="row">
         <div class="one column"></div>
-        <div class="ten columns blog">
-          <h1><%= current_article.title unless current_article.nil? %></h1>
-          <div class="tags">
-            <span class="tag"><%= current_article.date.strftime('%B %e, %Y') %></span>
-            <% current_article.tags.each do |tag| %>
-              <% if tag != "blog" %>
-                <span class="tag"><%= tag %></span>
-              <% end %>
-            <% end %>
-          </div>
+        <div class="ten columns">
           <%= yield %>
         </div>
         <div class="one column"></div>

@@ -7,7 +7,6 @@ layout: home
     <h2 class="description">is a really awesome web developer</h2>
     <h3>who cares a lot about feminism, knitting, & <span class="dog">dogs</span>.</h3>
     <h4>she lives in pdx working as a <span class="computer">software engineer</span> for new relic.</h4>
-    <h5>you may also know her as the founder and CEO of programming.</h5>
   </div>
 
   <div class="section" id="section1">
@@ -19,7 +18,9 @@ layout: home
           <%= link_to article.title, article %>
           <!-- <br> -->
           <% article.tags.each do |tag| %>
-            <span class="tag"><%= tag %></span>
+            <% if tag != 'blog' %>
+              <span class="tag"><%= tag %></span>
+            <% end %>
           <% end %>
         </p>
       </div>

@@ -1,5 +1,0 @@
-name: Liz Abinante
-markdown: redcarpet
-pygments: true
-paginate: 5
-permalink: /things/:year/:title.html

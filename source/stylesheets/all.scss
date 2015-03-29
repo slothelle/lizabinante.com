@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+$gray: #38363A;
+$pink: #DA364A;
+$yellow: #EFB33C;
+$white: #FDFFFF;
+$green: #1C9B70;
+
+body {
+  color: $gray;
+  background-color: $white;
+}
+
+p, #content ul li, #main ul li {
+  font-size: 2rem;
+  line-height: 4rem;
+  text-align: justify;
+}
+
+a {
+  color: lighten($gray, 45%);
+  text-decoration: none;
+  &:hover {
+    color: $yellow;
+  }
+}
+
+#navigation {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  border-bottom: 1px solid lighten($gray, 70%);
+  background-color: $white;
+  z-index: 10;
+}
+
+ul.navigation {
+  display: inline;
+  li {
+    margin: 0px;
+    display: inline-block;
+    &:first-child {
+      padding: 0px 20px;
+      color: $yellow;
+      font-weight: 600;
+    }
+    &:nth-child(2):before {
+      content: "\26C5";
+    } 
+    a {
+      padding: 15px 20px;
+      display: inline-block;
+      &:hover {
+        background-color: $yellow;
+        color: $white;
+      }
+    }
+  }
+}
+
+ul.navigation-fake {
+  li:first-child {
+    padding: 15px 20px;
+  }
+}
+
+#content {
+  margin-top: 80px;
+}
+
+#main {
+  .description:after {
+    content: " \1F44D";
+  } 
+  .dog:after {
+    content: " \1F436";
+  }
+  .computer:after {
+    content: " \1F4BB";
+  }
+}
+
+pre, code {
+  font-family: "Droid Sans Mono", "Source Code Pro", monospace;
+}
+
+small {
+  font-weight: 300;
+}
+
+.tag {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: lighten($gray, 60%);
+  &:after {
+    content: ' : ';
+  }
+  &:last-child:after {
+    content: '';
+  }
+}
+
+.post {
+  .title {
+    // stuff
+  }
+}
+
+.blog {
+  top: 100px;
+  position: relative;
+}
+
+.blog, .talk {
+  h1 {
+    padding: 10px 0px;
+  }
+  .tags {
+    border-bottom: 1px solid lighten($gray, 70%);
+    margin-bottom: 50px;
+  }
+}
+
+#content {
+  top: 60px;
+  position: relative;
+}

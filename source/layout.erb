@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <title>liz abinante <%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <%= stylesheet_link_tag "normalize", "skeleton", "all" %>
+  </head>
+  <body>
+    <div id="navigation">
+      <ul class="navigation navigation-fake">
+        <li>liz abinante</li>
+        <li></li>
+        <li><a href="/">home</a></li>
+      </ul>
+    </div>
+    <div id="content" role="main" class="container">
+      <div class="row">
+        <div class="one column"></div>
+        <div class="ten columns blog">
+          <h1><%= current_article.title unless current_article.nil? %></h1>
+          <div class="tags">
+            <span class="tag"><%= current_article.date.strftime('%B %e, %Y') %></span>
+            <% current_article.tags.each do |tag| %>
+              <% if tag != "blog" %>
+                <span class="tag"><%= tag %></span>
+              <% end %>
+            <% end %>
+          </div>
+          <%= yield %>
+        </div>
+        <div class="one column"></div>
+      </div>
+    </div>
+  </body>
+</html>

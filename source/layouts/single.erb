@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <title>liz abinante <%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <%= stylesheet_link_tag "normalize", "skeleton", "all" %>
+  </head>
+  <body>
+    <div id="navigation">
+      <ul class="navigation navigation-fake">
+        <li>liz abinante</li>
+        <li></li>
+        <li><a href="/">home</a></li>
+      </ul>
+    </div>
+    <div id="content" role="main" class="container">
+      <div class="row">
+        <div class="one column"></div>
+        <div class="ten columns">
+          <%= yield %>
+        </div>
+        <div class="one column"></div>
+      </div>
+    </div>
+  </body>
+</html>

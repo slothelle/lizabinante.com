@@ -31,18 +31,13 @@ layout: home
   <div class="section" id="section2">
     <h1>talks</h1>
     <h2>upcoming</h2>
-    <% most_recent(blog.articles, "upcoming", 1).each_with_index do |article, i| %>
-      <div class="post">
-        <p>
-          <%= link_to article.title, article.data['url'] %>
-          <!-- <br> -->
-          <% article.tags.each do |tag| %>
-            <span class="tag"><%= article.data['conf'] %></span>
-            <span class="tag"><%= article.data['location'] %></span>
-          <% end %>
-        </p>
-      </div>
-    <% end %>
+    <div class="post">
+      <p>
+        <a href="http://fullstackfest.com/" target="_blank">Full Stack Fest Master of Ceremonies</a>
+        <span class="tag">Full Stack Fest (Barcelona Ruby and Barcelona Future JS)</span>
+        <span class="tag">September 1-5, 2015 in Barcelona, Spain</span>
+      </p>
+    </div>
 
     <h2>most recent</h2>
     <% most_recent(blog.articles, "talk", 1).each_with_index do |article, i| %>

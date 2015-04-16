@@ -12,9 +12,15 @@ body {
 }
 
 p, #content ul li, #main ul li {
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: 4rem;
   text-align: justify;
+}
+
+.intro {
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+  }
 }
 
 a {
@@ -65,10 +71,6 @@ ul.navigation-fake {
   }
 }
 
-#content {
-  margin-top: 80px;
-}
-
 #main {
   .description:after {
     content: " \1F44D";
@@ -101,12 +103,6 @@ small {
   }
 }
 
-.post {
-  .title {
-    // stuff
-  }
-}
-
 .blog {
   top: 100px;
   position: relative;
@@ -123,6 +119,37 @@ small {
 }
 
 #content {
-  top: 60px;
+  .talk {
+    margin-top: 100px;
+  }
+  top: 40px;
   position: relative;
+  font-weight: 400;
+  h1 {
+    font-weight: 700;
+  }
+  h2 {
+    font-weight: 600;
+  }
+  h3, h4, h5, h6 {
+    font-weight: 400;
+  }
+  ul {
+    margin-left: 40px;
+  }
+}
+
+blockquote {
+  border-left: 10px solid lighten($gray, 70%);
+  border-top: 1px dotted lighten($gray, 70%);
+  border-bottom: 1px dotted lighten($gray, 70%);
+  border-right: 1px dotted lighten($gray, 70%);
+  margin: 20px 0px;
+  padding: 20px;
+  font-weight: 500;
+  p {
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }

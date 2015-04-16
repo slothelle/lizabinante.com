@@ -56,6 +56,23 @@ layout: home
   </div>
 
   <div class="section" id="section3">
+    <h1>tutorials & workshops</h1>
+    <% most_recent(blog.articles, "tutorial", 5).each_with_index do |article, i| %>
+      <div class="post">
+        <p>
+          <%= link_to article.title, article %>
+          <% article.tags.each do |tag| %>
+            <% if tag != 'tutorial' %>
+              <span class="tag"><%= tag %></span>
+            <% end %>
+          <% end %>
+        </p>
+      </div>
+    <% end %>
+    <h2><a href="/tutorials">see all</a></h2>
+  </div>
+
+  <div class="section" id="section4">
     <h1>about</h1>
     <p>
       Liz Abinante is an engineer living in Portland working for New Relic. Previously, she has served as co-leader for the Chicago chapter of Girl Develop It. She is infectiously enthusiastic about web development, teaching, learning, and feminism. She enjoys speaking at conferences, knitting, and a hacking away on interesting problems. Her greatest dream in life is to spend her entire day surrounded by puppies while coding.
@@ -65,7 +82,7 @@ layout: home
     </p>
   </div>
 
-  <div class="section" id="section4">
+  <div class="section" id="section5">
     <h1>contact</h1>
     <p>
       I hate email from recruiters. Don't email me, recruiters. Seriously. Don't. You won't win.

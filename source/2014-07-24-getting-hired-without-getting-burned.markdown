@@ -12,11 +12,11 @@ While this is written by an engineer primarily for engineers, these questions an
 
 ---
 
-# Diversity
+## Diversity
 
 Don't beat around the bush. Ask. If they don't like the questions, then you don't want to work there.
 
-**Questions**
+### Questions
 
 * Why do you think diversity in the workforce is important?
 * What are your goals for increasing diversity?
@@ -28,7 +28,7 @@ Don't beat around the bush. Ask. If they don't like the questions, then you don'
 * What internal employee resource groups do you have?
 * What does success in regards to diversity at *company* look like to you?
 
-**Things to look out for**
+### Things to look out for
 
 * Is the executive team involved in the hiring process? At large companies, probably not. At small companies, meet them if you can and ask the above questions. Their answers set the trend for their departments, or potentially the entire company.
 * Does the executive team support the diversity initiatives? Are they supporting the initiatives through the promotion of token individuals? Are they supportive for the praise, or is it altruistic?
@@ -39,15 +39,15 @@ Don't beat around the bush. Ask. If they don't like the questions, then you don'
 
 ---
 
-# Do they value employees?
+## Do they value employees?
 
-**Questions**
+### Questions
 
 * Do you provide job training for employees?
 * Do employees have a training budget?
 * What career paths are available from this position?
 
-**Things to look out for**
+### Things to look out for
 
 * How are the lowest-level employees treated? Do they receive the same perks as engineers?
 * Which departments have training budgets?
@@ -59,16 +59,16 @@ Don't beat around the bush. Ask. If they don't like the questions, then you don'
 
 ---
 
-# Human Resources
+## Human Resources
 
-**Questions**
+### Questions
 
 * How does HR handle internal complaints?
 * Do they have a policy on inter-office relationships? 
 * How familiar are you with the ADA, FMLA, and other similar laws that protect workers rights?
 * Are employee salaries confidential information? *Note: This is likely illegal, see [here](http://www.npr.org/2014/04/13/301989789/pay-secrecy-policies-at-work-often-illegal-and-misunderstood) for details, or the [National Labor Relations Act](http://www.nlrb.gov/resources/national-labor-relations-act).*
 
-**Things to look out for**
+### Things to look out for
 
 * **Look for [HR antipatterns](http://modelviewculture.com/pieces/hr-antipatterns-at-startups).** This is the most important thing you can do  - I have no other advice for you here except that you read that article.
 

@@ -20,7 +20,7 @@ I am using Redis Cloud in my configuration below, but this should work with othe
 
 This guide works specifically with the following versions of Rails, Unicorn, and Resque:
 
-```
+```ruby
 gem 'rails', '4.1.1'
 gem 'resque', '~> 1.24.1'
 gem 'unicorn', '~> 4.6.2'
@@ -32,7 +32,7 @@ I can't make any promises about other versions.
 
 This is pretty standard for Heroku, Resque, and Rails.
 
-```
+```ruby
 web: bundle exec unicorn -p $PORT -c ./config/unicorn.rb
 resque: env TERM_CHILD=1 QUEUE=* bundle exec rake resque:work
 ```
@@ -41,7 +41,7 @@ resque: env TERM_CHILD=1 QUEUE=* bundle exec rake resque:work
 
 Create a new file: `config/initializers/redis.rb` and put this inside of it:
 
-```
+```ruby
 if ENV["REDISCLOUD_URL"]
   $redis = Resque.redis = Redis.new(:url => ENV["REDISCLOUD_URL"])
 end
@@ -51,7 +51,7 @@ end
 
 We need access to the Rake tasks. Create a new file: `lib/tasks/resque.rake`.
 
-```
+```ruby
 require 'resque/tasks'
  
 task "resque:preload" => :environment
@@ -63,7 +63,7 @@ The last thing we need to do is configure Unicorn, which turned out to be the mo
 
 In your `config/unicorn.rb` file, put:
 
-```
+```ruby
 worker_processes Integer(ENV["WEB_CONCURRENCY"] || 3)
 timeout 15
 preload_app true

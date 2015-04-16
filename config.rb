@@ -1,3 +1,6 @@
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
+
 ###
 # Blog settings
 ###
@@ -48,6 +51,7 @@ end
 
 activate :livereload
 activate :directory_indexes
+activate :syntax, :line_numbers => true
 
 # Methods defined in the helpers block are available in templates
 helpers do

@@ -131,7 +131,7 @@ Some suggestions for scripts to write:
 
 I highly recommend reading the book [*Learn to Program* by Chris Pine](https://pine.fm/LearnToProgram/). I read the entire thing and did every single code challenge. 
 
-> Ask yourself the same questions you did after you finished your HTML/CSS/JavaScript/jQuery adventure. Are the answers still yes? 
+> Ask yourself the same questions you did after you finished your HTML / CSS / JavaScript / jQuery adventure. Are the answers still yes? 
 
 If they are, keep working on it. If you love it, think about what your life would be like if you did that all day, every day.
 

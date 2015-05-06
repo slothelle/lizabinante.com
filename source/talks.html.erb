@@ -1,21 +1,11 @@
----
-layout: single
----
-
 <h1>talks</h1>
 <div class="posts">
   <% most_recent(blog.articles, "talk").each_with_index do |article, i| %>
-    <div class="post">
-      <p>
-        <%= link_to article.title, article %>
-        <br>
-        <span class="tag"><%= article.date.strftime('%B %e, %Y') %></span>
-        <% article.tags.each do |tag| %>
-          <% if tag != "talk" %>
-            <span class="tag"><%= tag %></span>
-          <% end %>
-        <% end %>
-      </p>
+    <div class="post post-excerpt">
+      <h2><%= link_to article.title, article %></h2>
+      <p><%= article.date.strftime('%B %e, %Y') %></p>
+      <span class="tag"><%= article.data['conf'] %></span>
+      <span class="tag"><%= article.data['location'] %></span>
     </div>
   <% end %>
 </div>

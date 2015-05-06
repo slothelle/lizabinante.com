@@ -1,83 +1,20 @@
----
-layout: home
----
-<div id="fullpage" class="intro">
-  <div class="section" id="section0">
-    <h1 class="name">liz abinante</h1>
-    <h2 class="description">is a really awesome web developer</h2>
-    <h3>who cares about feminism, knitting, & <span class="dog">dogs</span>.</h3>
-    <h4>she lives in pdx & works as a <span class="computer">software engineer</span>.</h4>
-  </div>
+<h1>writing: recently</h1>
+<% most_recent(blog.articles, "blog", 4).each_with_index do |article, i| %>
+  <div class="post post-excerpt">
+    <h2><%= link_to article.title, article %></h2>
 
-  <div class="section" id="section1">
-    <h1>writing</h1>
-    <h2>recently</h2>
-    <% most_recent(blog.articles, "blog", 4).each_with_index do |article, i| %>
-      <div class="post">
-        <p>
-          <%= link_to article.title, article %>
-          <!-- <br> -->
-          <% article.tags.each do |tag| %>
-            <% if tag != 'blog' %>
-              <span class="tag"><%= tag %></span>
-            <% end %>
-          <% end %>
-        </p>
-      </div>
-    <% end %>
-    <h2><a href="/writing">see all</a></h2>
-  </div>
+    <p>
+      <%= article.summary(250, ' ...') %>
+    </p>
 
-  <div class="section" id="section2">
-    <h1>talks</h1>
-    <h2>upcoming</h2>
-    <div class="post">
-      <p>
-        <a href="http://fullstackfest.com/" target="_blank">Full Stack Fest Master of Ceremonies</a>
-        <span class="tag">Full Stack Fest (Barcelona Ruby and Barcelona Future JS)</span>
-        <span class="tag">September 1-5, 2015 in Barcelona, Spain</span>
-      </p>
+    <div class="tags">
+      <p><%= article.date.strftime('%B %e, %Y') %></p>
+      <% article.tags.each do |tag| %>
+        <% if tag != 'blog' %>
+          <span class="tag"><%= tag %></span>
+        <% end %>
+      <% end %>
     </div>
 
-    <h2>most recent</h2>
-    <% most_recent(blog.articles, "talk", 1).each_with_index do |article, i| %>
-      <div class="post">
-        <p>
-          <%= link_to article.title, article %>
-          <!-- <br> -->
-          <% article.tags.each do |tag| %>
-            <span class="tag"><%= article.data['conf'] %></span>
-            <span class="tag"><%= article.data['location'] %></span>
-          <% end %>
-        </p>
-      </div>
-    <% end %>
-    <h2><a href="/talks">see all</a></h2>
   </div>
-
-  <div class="section" id="section3">
-    <h1>about</h1>
-    <p>
-      Liz Abinante is an engineer living in Portland working for New Relic. Previously, she has served as co-leader for the Chicago chapter of Girl Develop It. She is infectiously enthusiastic about web development, teaching, learning, and feminism. She enjoys speaking at conferences, knitting, and a hacking away on interesting problems. Her greatest dream in life is to spend her entire day surrounded by puppies while coding.
-    </p>
-    <p>
-      Liz primarily works with JavaScript, Ruby, Rails, Angular, and Ember. She has strong opinions about clean code, accessibility, and testing. She is currently on a quest to learn C. <a href="https://github.com/feministy" target="_blank">View Github</a>.
-    </p>
-  </div>
-
-  <div class="section" id="section4">
-    <h1>contact</h1>
-    <p>
-      I hate email from recruiters. Don't email me, recruiters. Seriously. Don't. You won't win.
-    </p>
-
-    <p>
-      But! I like most other <a href="mailto:me@liz.codes">email</a>.
-    </p>
-
-    <p>
-      I also like <a href="https://twitter.com/feministy" target="_blank">tweets</a>.
-    </p>
-  </div>
-</div>
-
+<% end %>

@@ -6,62 +6,63 @@
     <title>liz abinante <%= ' - ' + current_article.title unless current_article.nil? %></title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
     <%= stylesheet_link_tag "normalize", "skeleton", "all" %>
+    <style>
+      <%= Rouge::Themes::Github.render(:scope => '.highlight') %>
+    </style>
   </head>
   <body>
-    <div id="navigation">
-      <ul class="navigation navigation-fake">
-        <li>liz abinante</li>
-        <li></li>
-        <li><a href="/">home</a></li>
-      </ul>
-    </div>
-    <div id="content" role="main" class="container">
+    <div class="container">
       <div class="row">
-        <div class="one column"></div>
-        <div class="ten columns talk">
-          <h1><%= current_article.title unless current_article.nil? %></h1>
-          <div class="tags">
-            <span class="tag"><%= current_article.date.strftime('%B %Y') %></span>
-            <% if current_article.tags.length > 1 %>
-              <% current_article.tags.each do |tag| %>
-                <% if tag != "blog" %>
-                  <span class="tag"><%= tag %></span>
-                <% end %>
+        <div class="two columns">
+          <div id="navigation">
+            <ul class="navigation">
+              <li><a href="/">liz abinante</a></li>
+              <li><a href="/writing">writing</a></li>
+              <li><a href="/talks">talks</a></li>
+              <li><a href="/about">about</a></li>
+              <li><a href="/about">contact</a></li>
+              <li><a href="http://tinyletter.com/feministy">subscribe</a></li>
+              <li><a href="http://twitter.com/feministy">tweet</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="ten columns">
+          <div id="main">
+            <h1><%= current_article.title unless current_article.nil? %></h1>
+
+            <p><%= current_article.date.strftime('%B %Y') %></p>
+
+            <h2>Details</h2>
+            <ul>
+              <li><%= current_article.data['conf'] %> <%= current_article.date.strftime('%Y') %> in <%= current_article.data['location'] %></li>
+              <% if current_article.data['speakerdeck'] %>
+                <li>
+                  <%= link_to 'View slides', current_article.data['speakerdeck'] %>
+                </li>
               <% end %>
+              <% if current_article.data['video'] %>
+                <li>
+                  <%= link_to 'Watch video', current_article.data['video'] %>
+                </li>
+              <% end %>
+            </ul>
+
+            <h3>Abstract</h3>
+            <%= yield %>
+
+            <% if current_article.data['embed'] %>
+              <h3>Video</h3>
+              <iframe width="640" height="360" src="<%= current_article.data['embed'] %>" frameborder="0" allowfullscreen></iframe>
+            <% end %>
+
+            <% if current_article.data['data'] && current_article.data['ratio'] %>
+              <h3>Slides</h3>
+              <script async class="speakerdeck-embed" data-id="<%= current_article.data['data'] %>" data-ratio="<%= current_article.data['ratio'] %>" src="//speakerdeck.com/assets/embed.js"></script>
             <% end %>
           </div>
-
-          <h2>Details</h2>
-
-          <ul>
-            <li><%= current_article.data['conf'] %> <%= current_article.date.strftime('%Y') %> in <%= current_article.data['location'] %></li>
-            <% if current_article.data['speakerdeck'] %>
-              <li>
-                <%= link_to 'View slides', current_article.data['speakerdeck'] %>
-              </li>
-            <% end %>
-            <% if current_article.data['video'] %>
-              <li>
-                <%= link_to 'Watch video', current_article.data['video'] %>
-              </li>
-            <% end %>
-          </ul>
-
-          <h3>Abstract</h3>
-          <%= yield %>
-
-          <% if current_article.data['embed'] %>
-            <h3>Video</h3>
-            <iframe width="640" height="360" src="<%= current_article.data['embed'] %>" frameborder="0" allowfullscreen></iframe>
-          <% end %>
-
-          <% if current_article.data['data'] && current_article.data['ratio'] %>
-            <h3>Slides</h3>
-            <script async class="speakerdeck-embed" data-id="<%= current_article.data['data'] %>" data-ratio="<%= current_article.data['ratio'] %>" src="//speakerdeck.com/assets/embed.js"></script>
-          <% end %>
         </div>
-        <div class="one column"></div>
       </div>
     </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   </body>
 </html>

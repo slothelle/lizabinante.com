@@ -1,20 +1,14 @@
-<h1>writing: recently</h1>
-<% most_recent(blog.articles, "blog", 4).each_with_index do |article, i| %>
-  <div class="post post-excerpt">
-    <h2><%= link_to article.title, article %></h2>
+---
+layout: home
+---
 
-    <p>
-      <%= article.summary(346, ' ...') %>
-    </p>
+<p class="lead">
+  <strong>Hello!</strong> I <a href="/writing">write</a> and <a href="/talks">speak</a> about diversity, web development and design, education, and accessibility. I <a href="http://twitter.com/feministy">tweet</a> (a lot) about the tech industry. You can <a href="http://tinyletter.com/feministy">subscribe</a> to my articles, too! Learn more <a href="/about">about me</a> or <a href="/contact">get in touch</a>.
+</p>
 
-    <div class="tags">
-      <p><%= article.date.strftime('%B %e, %Y') %></p>
-      <% article.tags.each do |tag| %>
-        <% if tag != 'blog' %>
-          <span class="tag"><%= tag %></span>
-        <% end %>
-      <% end %>
-    </div>
-
-  </div>
-<% end %>
+<p class="lead">
+  <strong>
+    I'm currently accepting speaking and workshop requests for 2016 conferences.
+  </strong>
+  Find out more <a href="/speaker-info">speaker info</a>.
+</p>

@@ -1,11 +1,17 @@
-<h1>talks</h1>
 <div class="posts">
   <% most_recent(blog.articles, "talk").each_with_index do |article, i| %>
-    <div class="post post-excerpt">
-      <h2><%= link_to article.title, article %></h2>
-      <p><%= article.date.strftime('%B %e, %Y') %></p>
-      <span class="tag"><%= article.data['conf'] %></span>
-      <span class="tag"><%= article.data['location'] %></span>
+    <p><%= link_to article.title, article %></p>
+    <div class="row">
+      <div class="columns one"></div>
+      <div class="columns eleven">
+        <p>
+          <strong>Date:</strong> <%= article.date.strftime('%B %e, %Y') %>
+          <br>
+          <strong>Event:</strong> <%= article.data['conf'] %>
+          <br>
+          <strong>Location:</strong> <%= article.data['location'] %>
+        </p>
+      </div>
     </div>
   <% end %>
 </div>

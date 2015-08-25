@@ -12,57 +12,58 @@
   </head>
   <body>
     <div class="container">
+      <div id="header">
+        <h1>liz abinante</h1>
+        <h2>software engineer, speaker, awesome human</h2>
+      </div>
+
       <div class="row">
-        <div class="two columns">
+        <div class="one columns">
           <div id="navigation">
             <ul class="navigation">
-              <li><a href="/">liz abinante</a></li>
+              <li><a href="/">home</a></li>
               <li><a href="/writing">writing</a></li>
               <li><a href="/talks">talks</a></li>
               <li><a href="/about">about</a></li>
-              <li><a href="/about">contact</a></li>
+              <li><a href="/contact">contact</a></li>
+              <li><a href="/speaker-info">speaking</a></li>
               <li><a href="http://tinyletter.com/feministy">subscribe</a></li>
               <li><a href="http://twitter.com/feministy">tweet</a></li>
             </ul>
           </div>
         </div>
-        <div class="ten columns">
-          <div id="main">
-            <h1><%= current_article.title unless current_article.nil? %></h1>
+        <div class="eleven columns">
+          <div id="main" class="content">
+            <h3><%= current_article.title unless current_article.nil? %></h3>
 
-            <p><%= current_article.date.strftime('%B %Y') %></p>
+            <p><%= current_article.date.strftime('%B %Y') %> at <%= current_article.data['conf'] %> <%= current_article.date.strftime('%Y') %> in <%= current_article.data['location'] %>
+            </p>
 
-            <h2>Details</h2>
-            <ul>
-              <li><%= current_article.data['conf'] %> <%= current_article.date.strftime('%Y') %> in <%= current_article.data['location'] %></li>
-              <% if current_article.data['speakerdeck'] %>
-                <li>
-                  <%= link_to 'View slides', current_article.data['speakerdeck'] %>
-                </li>
-              <% end %>
-              <% if current_article.data['video'] %>
-                <li>
-                  <%= link_to 'Watch video', current_article.data['video'] %>
-                </li>
-              <% end %>
-            </ul>
+            <h4>
+            <% if current_article.data['speakerdeck'] %>
+              <%= link_to 'View slides', current_article.data['speakerdeck'] %>
+            <% end %>
+            <% if current_article.data['video'] && current_article.data['speakerdeck'] %>
+            or
+            <% end %>
+            <% if current_article.data['video'] %>
+              <%= link_to 'Watch video', current_article.data['video'] %>
+            <% end %>
+            </h4>
 
-            <h3>Abstract</h3>
+            <h4>Abstract</h4>
             <%= yield %>
 
             <% if current_article.data['embed'] %>
-              <h3>Video</h3>
+              <h4>Video</h4>
               <iframe width="640" height="360" src="<%= current_article.data['embed'] %>" frameborder="0" allowfullscreen></iframe>
-            <% end %>
-
-            <% if current_article.data['data'] && current_article.data['ratio'] %>
-              <h3>Slides</h3>
-              <script async class="speakerdeck-embed" data-id="<%= current_article.data['data'] %>" data-ratio="<%= current_article.data['ratio'] %>" src="//speakerdeck.com/assets/embed.js"></script>
             <% end %>
           </div>
         </div>
       </div>
     </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//use.typekit.net/wgi7bvy.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </body>
 </html>

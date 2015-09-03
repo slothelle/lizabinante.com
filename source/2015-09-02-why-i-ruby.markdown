@@ -4,7 +4,7 @@ title:  "Why I Ruby (Or: My First Program)"
 category: talk
 tags: talk
 location: "Barcelona, Spain"
-conf: "Barcelona Ruby and Barcelona Future JS"
+conf: "Barcelona Ruby Conf @ Full Stack Fest"
 linky: "http://fullstackfest.com/"
 speakerdeck: "https://speakerdeck.com/feministy/why-i-ruby-or-my-first-program"
 ---

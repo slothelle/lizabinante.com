@@ -3,7 +3,7 @@ title: "Full Stack Fest Master of Ceremonies"
 category: talk
 tags: talk
 location: "Barcelona, Spain"
-conf: "Barcelona Ruby and Barcelona Future JS"
+conf: "Full Stack Fest"
 url: "http://fullstackfest.com/"
 linky: "http://fullstackfest.com/"
 ---

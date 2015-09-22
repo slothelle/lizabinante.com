@@ -1,55 +1,46 @@
 @charset "utf-8";
 
 $gray: #38363A;
-$pink: #DA364A;
-$yellow: #EFB33C;
+$accent: lighten($gray, 50%);
 $white: #FDFFFF;
-$green: #1C9B70;
+$highlight: #FC564F;
 
 body {
   color: $gray;
   background-color: $white;
 }
 
-p, #content ul li, #main ul li {
-  font-size: 1.75rem;
+.content {
+  padding: 0px 5%;
+}
+
+p, .content ul li, #main ul li, .content ol li, #main ol li {
+  font-size: 2.25rem;
   line-height: 4rem;
   text-align: justify;
 }
 
-.post-excerpt p a {
-  color: lighten($gray, 30%);
-}
-
 a {
-  color: $yellow;
+  color: $accent;
   text-decoration: none;
+  transition: all 0.2s ease;
   &:hover {
-    color: $yellow;
+    color: $highlight;
   }
-}
-
-ul {
-  padding-left: 40px;
 }
 
 ul.navigation {
   list-style-type: none;
   font-size: 1.5rem;
-  padding-top: 55px;
-  padding-left: 0px;
+  text-transform: uppercase;
   li {
     margin: 0px;
     padding: 10px 0px;
-    &:first-child a {
-      background-color: $yellow;
-      color: $white;
-    }
     a {
       padding: 10px 15px;
       color: $gray;
       &:hover {
-        background-color: $yellow;
+        background-color: $accent;
         color: $white;
       }
     }
@@ -64,40 +55,70 @@ small {
   font-weight: 300;
 }
 
-.tag {
-  color: $gray;
-  background-color: $white;
-  padding: 5px;
-  margin: 0px 5px;
-  &:first-of-type {
-    margin-left: 0px;
-  }
-}
-
 blockquote {
-  background-color: lighten($gray, 75%);
   margin: 20px 0px;
   padding: 20px;
   p {
     margin-bottom: 0;
+    font-style: italic;
     padding-bottom: 0;
     text-align: left;
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 2.75rem;
+    line-height: 4.5rem;
   }
 }
 
-.post-excerpt {
-  background-color: lighten($gray, 75%);
-  padding: 10px 50px 50px 50px;
-  margin-bottom: 50px;
-}
-
 .tags {
-  border-top: 2px solid $white;
-  padding-top: 40px;
+  font-size: 1.5rem;
 }
 
 .date {
   font-weight: 700;
   margin-right: 10px;
+}
+
+#header {
+  text-align: center;
+  padding: 10% 10px 10px 10px;
+  h1 {
+    font-size: 10rem;
+    line-height: 1rem;
+  }
+  h2 {
+    text-transform: uppercase;
+    font-size: 2.1rem;
+  }
+}
+
+h3 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.lead {
+  font-size: 3rem;
+  line-height: 6rem;
+}
+
+.highlighted {
+  color: $highlight;
+  font-weight: 700;
+}
+
+small.date {
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+
+p.summary {
+  font-size: 1.5rem;
+}
+
+.right {
+  float: right;
+}
+
+.code {
+  line-height: initial;
 }

@@ -1,4 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700);
+@charset "utf-8";
+
+$font: "freight-sans-pro", "Helvetica Neue", "Helvetica", "Arial";
 
 /*
 * Skeleton V2.0.4
@@ -126,8 +128,8 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: 'Noticia Text', 'Georgia', serif;;
-  color: #222; }
+  font-family: $font;
+  color: #333; }
 
 
 /* Typography

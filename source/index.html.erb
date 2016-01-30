@@ -2,17 +2,21 @@
 layout: home
 ---
 
-<p class="lead">
-  <strong>Hello!</strong> I <a href="/writing">write</a> and <a href="/talks">speak</a> about diversity, web development and design, education, and accessibility. I <a href="http://twitter.com/feministy">tweet</a> (a lot) about the tech industry. You can <a href="http://tinyletter.com/feministy">subscribe</a> to my articles, too! Learn more <a href="/about">about me</a> or <a href="/contact">get in touch</a>.
+<h1>Hello, I'm Liz!</h1>
+
+<h2 class="subtitle">
+  I'm a software engineer who gets a kick out of building <a href="https://github.com/feministy" target="#">fun things</a>. 
+</h2>
+
+<p>
+  I <a href="/writing">write</a> and <a href="/talks">speak</a> about diversity, web development and design, and education. I <a href="http://twitter.com/feministy">tweet</a> (a lot) about development the tech industry. You can <a href="http://tinyletter.com/feministy">subscribe</a> to my articles, too! Learn more <a href="/about">about me</a> or <a href="/contact">get in touch</a>.
 </p>
 
-<p class="lead">
-  My most recent article is: <%= link_to most_recent(blog.articles, "blog", 1).first.title, most_recent(blog.articles, "blog", 1).first %>
+<h2>
+  Recently:
+</h2>
+
+<p>
+  I've written about <%= link_to most_recent(blog.articles, "blog", 1).first.title, most_recent(blog.articles, "blog", 1).first %> and given a talk on <%= link_to most_recent(blog.articles, "talk", 1).first.title, most_recent(blog.articles, "talk", 1).first %>.
 </p>
 
-<p class="lead">
-  <strong>
-    I'm currently accepting speaking and workshop requests for 2016 conferences.
-  </strong>
-  Find out more <a href="/speaker-info">speaker info</a>.
-</p>

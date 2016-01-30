@@ -1,6 +1,6 @@
 <h1>Writing</h1>
 
-<% most_recent(blog.articles, "blog").each_with_index do |article, i| %>
+<% most_recent(blog.articles, "blog").each do |article| %>
   <div class="row">
     <div class="columns twelve article">
       <h2>

@@ -290,6 +290,7 @@ config = Ravelry::Configuration.new
 config.access_key = ''
 config.secret_key = ''
 config.personal_key = ''
+Ravelry.configuration = config
 
 # two ways to access here here:
 config.access_key # => ''

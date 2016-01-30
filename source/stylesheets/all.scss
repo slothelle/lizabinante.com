@@ -44,8 +44,24 @@ pre, code {
   line-height: initial;
 }
 
-ul {
+ul, ol {
   margin-left: 40px;
+}
+
+ol {
+  counter-reset: counter;
+  list-style-type: none;
+}
+ol li:before {
+  content: counter(counter, decimal) '.';
+  counter-increment: counter;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+blockquote {
+  border-left: 5px solid $accent;
+  padding-left: 10px;
 }
 
 ul.navigation {

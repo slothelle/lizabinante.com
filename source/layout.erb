@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <title>liz abinante <%= ' - ' + current_article.title unless current_article.nil? %></title>
-    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
     <%= stylesheet_link_tag "normalize", "skeleton", "all" %>
     <style>
       <%= Rouge::Themes::Github.render(:scope => '.highlight') %>
@@ -27,15 +26,19 @@
           </ul>
       
           <% unless current_article.nil? %>
-            <small class="date right"><%= current_article.date.strftime('%B %e, %Y') %></small>
             <h1><%= current_article.title %></h1>
+            <p class="date">
+              <strong>published:</strong> <%= current_article.date.strftime('%e %B %Y') %>
+              <% if current_article.tags.length > 1 %>
+                <span class="tags right">
+                  <strong>tags:</strong> <%= formatted_article_tags(current_article.tags) %>
+                </span>
+              <% end %>
+            </p>
           <% end %>
           <%= yield %>
         </div>
       </div>
     </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="//use.typekit.net/wgi7bvy.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </body>
 </html>

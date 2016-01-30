@@ -44,12 +44,17 @@ pre, code {
   line-height: initial;
 }
 
+ul {
+  margin-left: 40px;
+}
+
 ul.navigation {
   list-style-type: none;
   font-weight: 500;
   font-size: 65%;
   padding: 0px;
   background-color: $accent;
+  margin-left: 0px;
   li {
     display: inline-block;
     padding: 10px 15px;

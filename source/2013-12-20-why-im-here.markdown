@@ -7,6 +7,8 @@ tags: blog
 
 I am here because I love what I do. I love working with Ruby. I love tinkering with JavaScript. I get an absolute thrill over the legitimately amazing things I can do with programming. I'm stoked to learn Clojure. And maybe Scala. Or Python? More things. I'm excited to learn more.
 
+READMORE
+
 I am not here because I have an agenda. I have an agenda because I have to have one to keep my head above water. This agenda also comes with the support of a wonderful community, which is the only thing that can protect me from the vitriol and cruelty that exists in the tech sphere. These things are thrown at me because of my gender, the opinions I hold, and the people I socialize with, not because I'm a bad person or a bad engineer. Just because someone doesn't like me, the things I say, and the things my friends say.
 
 Earlier today when my GitHub profile was used to lend credibility to a repo mocking feminism, rape victims/survivors, and women in general, I wasn't mad. My first reaction was concern for the code that I have access to on GitHub. Was my account compromised? Or worse, was GitHub? Code that isn't mine could be at risk. Code that lots of other people have put many hours into. Code that does good things.

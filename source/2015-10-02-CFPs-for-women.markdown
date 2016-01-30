@@ -6,6 +6,8 @@ tags: blog, me, speaking
 
 I've been getting a lot of emails lately from conference organizers asking me to submit a technical talk. The nice ones go something like "we really want to see more submissions from women, especially technical talks", and the demanding ones are a little more "we want more technical talk submissions from women."
 
+READMORE
+
 Thank you _so much_ for reminding me that I'm a woman in tech! I had totally forgotten.
 
 Also, as a side note, I'd love to see if they replace "women" with anything else ever. Do they send that same email to women of color? Trans folks? Lesbians? Genderqueer people? Curious how those adjectives are changed out.

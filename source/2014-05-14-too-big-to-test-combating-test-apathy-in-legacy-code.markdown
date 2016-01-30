@@ -8,6 +8,8 @@ tags: blog, technical, testing
 
 Writing tests for large Rails apps with lots of dependencies and complicated modeling is, without question, a complete nightmare. We often spend more time wrestling with tests than we do writing code. The end result of writing tests for legacy code is unfortunately predictable: a test suite full of holes, poor coverage, and tests that aren't actually testing the thing you think they are. Bugs begin to pile up, technical debt is avoided like the plague, and quick-fix bandaids are applied instead of addressing the problems head on.
 
+READMORE
+
 We are then faced with a dilemma: our app has become too big and too complicated to test, and we no longer want to write tests for it because it is so painful. This is unavoidable. No matter how many conference talks we attend that promise to teach us how to writing clean, maintainable code, we're still drowning in a bog of bad. The reality isn't that we're bad developers, it's that we don't dictate our workload, deadlines, or priorities. We have to make sacrifices in our code, which isn't a bad thing until it is. So how do we fix it? How do we take away the pain?
 
 The short answer: it's not easy to fix, and it takes time.

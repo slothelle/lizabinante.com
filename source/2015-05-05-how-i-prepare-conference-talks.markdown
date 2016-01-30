@@ -6,6 +6,8 @@ tags: blog, career, resources, conferences, speaking
 
 When I was little and you asked me what I wanted to be, I always said a teacher. As a result, I never thought of public speaking as *public speaking*, I always thought of it as teaching.
 
+READMORE
+
 Before I was an engineer speaking at tech conferences, I was an academic speaking at academic conferences [(on some very... *niche* topics)](http://www.sirensconference.org/archive/2009/#programming) and giving lectures as a graduate student. My initial foray into public speaking was very research-based, and this continues to impact a lot of the work that I do around preparing conference talks.
 
 I generally give two types of talks:

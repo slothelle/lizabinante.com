@@ -6,6 +6,8 @@ tags: blog, hiring
 
 It's a pretty good time to be an engineer, but it's an even better time to be a senior engineer. In the economy of engineering jobs, there's an increasing demand for senior talent, but no one is working to increase the supply because senior talent can't be made, it takes time.
 
+READMORE
+
 Companies will say things like:
 
 "We're only looking to hire senior developers right now."

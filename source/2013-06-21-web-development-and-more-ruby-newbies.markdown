@@ -6,6 +6,8 @@ category: devbootcamp
 
 The new cohort arrived on Monday. It's all dudes. <span>I know that the dbc staff are trying as hard as they can to encourage diversity in the field and within the program. I also know that several factors out of their control contributed to the population of the new cohort (the Otters), but it's still frustrating. My learning environment completely changed on Monday with the addition of 16 <em>dudes</em>.&nbsp;&nbsp;</span><br><br>
 
+READMORE
+
 I went from being 1 of 3 women in a room of ~40 men to 1 of 5 women (two new female instructors!!!!!!! <em>not enough exclamation points in the world</em>) in a room of ~60 men. It's like studying in a frat house full of competitive nerds.<br><br>
 
 One great thing is that there are now even more people around me that I can help learn. I love teaching and explaining things. It's one of the big reasons I feel like I'm doing so well at dbc. Once I understand something, I can help someone else understand it also, which strengthens my ability to use it.<br><br>

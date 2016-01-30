@@ -6,6 +6,8 @@ tags: blog, career, resources, education
 
 The following resources serve as a followup for my talk ["Practical Advice for Establishing Your Engineering Career"](https://speakerdeck.com/feministy/practical-advice-for-establishing-your-engineering-career). 
 
+READMORE
+
 ## IRC
 
 I personally use [IRCCloud](https://www.irccloud.com), which is free unless you want backlog ($5/mo).

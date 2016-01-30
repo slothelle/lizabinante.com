@@ -13,6 +13,8 @@ It's unavoidable: a broken industry leads to broken companies.
 
 These conversations are happening in isolation, and they shouldn't be.
 
+READMORE
+
 I shared some of my thoughts about this on Twitter. Here they are, connected.
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Real question: what is your company doing to increase diversity in tech? Not internally. Externally. For everyone.</p>&mdash; liz abinante! (@feministy) <a href="https://twitter.com/feministy/status/631300074551668736">August 12, 2015</a></blockquote>

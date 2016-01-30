@@ -6,6 +6,8 @@ tags: blog
 
 Since I became a co-leader for [Girl Develop It Chicago](http://www.meetup.com/Girl-Develop-It-Chicago-IL/) in January, I introduce myself in much the same way at every workshop, class, and event. It goes a little something like this:
 
+READMORE
+
 > Hi, my name is Liz, and I'm a co-leader for GDI Chicago along with Katy, say hi Katy! I'm currently a Software Engineer for an educational company called Instructure, but a year ago today, I wasn't doing this. I was quitting a decent paying job with no real career prospects to attend Dev Bootcamp, and now I'm an engineer and I absolutely love what I do. I am here to help you see if you love this as much as I do. I learned HTML and CSS when I was a kid so I could build a fan website for NSync - it's easy to learn, but hard to master, and you can totally do it! I love questions and I'm really nice, so you can email me anytime!
 
 As of this weekend, I can no longer say "a year ago today" because I will have already quit that job and started working toward my goal of learning how to build software. I have been, in one form or another, working in web development for a year now.

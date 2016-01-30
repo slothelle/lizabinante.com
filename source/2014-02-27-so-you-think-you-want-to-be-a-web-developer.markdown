@@ -6,6 +6,8 @@ tags: blog
 
 About once a week, I get an email, chat, tweet, or other electronic communication asking me about some aspect of my job or how I made the transition from a non-technical career. The majority of the time, it's because that person is considering applying to (or has already been accepted to) an intensive bootcamp-style web developer training program. This is what I say to those people.
 
+READMORE
+
 > Most importantly, above anything I can tell you about becoming a web developer: *there are no short cuts.* Going to an intensive bootcamp-style program already is a shortcut.
 
 ## Who are you? And why should I listen?

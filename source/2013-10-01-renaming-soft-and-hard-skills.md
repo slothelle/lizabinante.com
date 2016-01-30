@@ -5,7 +5,11 @@ category: blog
 tags: blog, skills
 ---
 
-People in the development community tend to throw around the phrase "soft skills" to describe things that are not directly related to writing code. This isn't exclusive to the development world; lots of people use the term "soft skills" to describe traits that can't be directly attributed to certifiable/measurable skills and specialities. A non-exhaustive list of what "soft skills" typically encompasses would be:
+People in the development community tend to throw around the phrase "soft skills" to describe things that are not directly related to writing code. This isn't exclusive to the development world; lots of people use the term "soft skills" to describe traits that can't be directly attributed to certifiable/measurable skills and specialities.
+
+READMORE
+
+A non-exhaustive list of what "soft skills" typically encompasses would be:
 
 * Project, task, or team management
 * Communication

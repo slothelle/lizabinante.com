@@ -6,6 +6,8 @@ tags: blog, confs, talks
 
 When I decided to speak at my first conference, I picked a topic that I knew would be safe. I picked something not threatening, not overly opinionated, and not technical. In short, I picked something I didn't think I would get aggressive questions about. **I picked something feminine: I talked about teaching kids how to program.** 
 
+READMORE
+
 I gave my talk yesterday, and it doesn't sit well with me to say what I'm about to say. But someone has to say it, and since I was the only woman speaking yesterday it's likely that no one else will. 
 
 > I'm glad that I didn't give a technical talk. 

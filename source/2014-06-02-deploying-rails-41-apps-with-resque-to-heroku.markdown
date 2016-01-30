@@ -8,6 +8,8 @@ The Heroku guides for deploying Rails apps encourage you to do so using a Procfi
 
 ... that is, until they *completely, totally, and utterly fail me*.
 
+READMORE
+
 After I added Resque to a Rails app I was working on, I was having a hell of a time deploying it to Heroku: first Redis wouldn't start, and then when Redis finally started, my workers wouldn't start. Nothing in the guides for Resque, or two Redis add ons (RedisToGo and Redis Cloud), was helpful or even remotely close to correct.
 
 Some intense Googling turned up some issues related to older versions of Resque (1.22.1, which Heroku uses in their guides) and some compatibility issues with Unicorn.

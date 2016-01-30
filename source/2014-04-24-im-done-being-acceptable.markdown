@@ -6,7 +6,11 @@ tags: blog, feminism
 
 Since I joined the tech community, I have worked very hard to be acceptable. I have tried to be the "acceptable feminist," and I've done this because I thought it would protect me from the problems present in tech. I really thought that if I was a nice, "reasonable", friendly, middle-ground person, I'd be safe.
 
-Turns out that isn't how it works. I don't know why I was so naive to think I'd be more protected if I was fake, not myself. I hid who I really was because I was afraid of being trolled, doxxed, blacklisted, assaulted, and hurt.
+Turns out that isn't how it works.
+
+READMORE
+
+I don't know why I was so naive to think I'd be more protected if I was fake, not myself. I hid who I really was because I was afraid of being trolled, doxxed, blacklisted, assaulted, and hurt.
 
 Turns out those things happen no matter what I do, no matter how you are protected. If I've learned anything from the events of the past few months, particularly this week, it's that nothing is what it seems to be. [Julie](http://twitter.com/nrrrdcore) publicly defended GitHub because she thought she had to, and regardless of her motives, it didn't matter, she wasn't safe. Allies have bad motives, supporters turn on you, you get fired, or blacklisted, betrayed, abandoned, bad-mouthed, and questioned. 
 

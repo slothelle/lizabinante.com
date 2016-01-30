@@ -11,6 +11,9 @@ A lot of things in my life happened that resulted in me attending DevBootcamp, b
 <li>My love of books and computers (see Thing #1)</li>
 <li>NSync</li>
 </ul>
+
+READMORE
+
 Like most folks in my generation, I grew up with parents telling me I could be or do whatever I wanted and praising me for my successes and strengths. Fortunately, they also recognized my weaknesses and didn't force me to continue with team sports beyond my obligatory year on a soccer team. They let me fail and succeed at a pace that was comfortable for me. Turns out I hate failing, which may have been a big reason why it took me so long to figure out what I wanted to do.<br><br>
 
 I was really lucky to have computer classes in elementary school. I would rush to finish my assignments early so that I could play Oregon Trail. I loved computers from the moment I sat down at one with the green-on-black DOS screen.<br><br>

@@ -6,6 +6,8 @@ tags: blog, hiring, interviewing
 
 It is incredibly difficult to find a good place to work. With companies that [fire women after they announce that they're pregnant](http://www.oregonlive.com/portland/index.ssf/2014/06/woman_claims_she_was_fired_12.html), [intimidate women into leaving](http://techcrunch.com/2014/03/15/julie-ann-horvath-describes-sexism-and-intimidation-behind-her-github-exit/), [hire people who think it's ok to compare women to programming tools](http://www.shakesville.com/2014/06/today-in-misogyny.html), and have [abysmally](http://yahoo.tumblr.com/post/89085398949/workforce-diversity-at-yahoo) [low](http://www.google.com/diversity/at-google.html) [diversity](http://blog.linkedin.com/2014/06/12/linkedins-workforce-diversity/) [numbers](https://blog.twitter.com/2014/building-a-twitter-we-can-be-proud-of) (although at 10% women in tech, I am no longer surprised by Twitter's terrible block policy), it's surprisingly easy to end up working in a toxic environment.
 
+READMORE
+
 How do you sniff out culture smells and determine if a company's work environment will be toxic to you? A large part of this depends on what you expect for your work environment, but there are a few questions you can use to screen companies. 
 
 While this is written by an engineer primarily for engineers, these questions and techniques are incredibly useful for any employee, at any company. You should, of course, pick and choose the things that matter to you most when interviewing.

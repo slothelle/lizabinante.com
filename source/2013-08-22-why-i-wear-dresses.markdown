@@ -7,6 +7,8 @@ tags: gender, blog
 
 Since graduating college, I’ve only had one job that required "business casual" attire. I hated that job, partly because a dead-set-in-her-traditional-ways HR representative made snide comments about my wardrobe everyday ("I wish I wasn’t a professional woman so I could wear jeans!"). It was never "business casual" enough for her.
 
+READMORE
+
 So for a few years, I rebelled against wearing dresses and skirts solely out of spite. Spending 40 hours a week in cheap polyester because it was all I could afford from the "business casual" area of Target completely turned me off from dressing up for work. Imagine my relief when the job I took at Groupon fresh out of grad school required no change in my wardrobe.
 
 I moved to Chicago and admitted defeat my first winter. It was colder than I had ever been in my entire life. I can say with absolutely certainty that it was the coldest I had ever been because I was born and raised in California and had only visited a cold part of the country once during winter. I lived in leggings, wool tights, hand knit sweaters, and piles of scarves for my first winter in Chicago.

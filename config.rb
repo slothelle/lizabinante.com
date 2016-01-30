@@ -16,7 +16,7 @@ activate :blog do |blog|
   # blog.sources = "{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
   # blog.layout = "layout"
-  # blog.summary_separator = /(READMORE)/
+  blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = "{year}.html"
   # blog.month_link = "{year}/{month}.html"
@@ -61,6 +61,10 @@ helpers do
       article.tags.include?(tag)
     end
     blog[0..(number-1)]
+  end
+
+  def formatted_article_tags(tags)
+    tags.reject { |t| t == 'blog' }.join(", ")
   end
 end
 

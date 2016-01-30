@@ -4,25 +4,23 @@
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <title>liz abinante <%= ' - ' + current_article.title unless current_article.nil? %></title>
-    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
     <%= stylesheet_link_tag "normalize", "skeleton", "all" %>
     <style>
       <%= Rouge::Themes::Github.render(:scope => '.highlight') %>
     </style>
   </head>
   <body>
-    <div class="container">
-      <div id="header">
-        <h1>liz abinante</h1>
-        <h2>software engineer, speaker, awesome human</h2>
+    <div class="container" id="home">
+      <div class="row">
+        <div class="twelve columns image">
+          <img src="/images/header.png" alt="Image of a young woman with short, curly, brown and pink hair.">
+        </div>
       </div>
-
-      <div id="main" class="content">
-        <%= yield %>
+      <div class="row">
+        <div class="twelve columns content">
+          <%= yield %>
+        </div>
       </div>
     </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="//use.typekit.net/wgi7bvy.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </body>
 </html>

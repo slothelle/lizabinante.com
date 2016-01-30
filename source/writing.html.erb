@@ -1,20 +1,22 @@
-<div class="posts">
-  <% most_recent(blog.articles, "blog").each_with_index do |article, i| %>
-    <div class="row">
-      <div class="columns ten">
-        <p>
-          <%= link_to article.title, article %>
-          <br>
-          <span class="tags">
-            <% article.tags.each do |tag| %>
-              <% if tag != 'blog' %><%= tag %><% end %>
-            <% end %>
+<h1>Writing</h1>
+
+<% most_recent(blog.articles, "blog").each_with_index do |article, i| %>
+  <div class="row">
+    <div class="columns twelve article">
+      <h2>
+        <%= link_to article.title, article %>
+      </h2>
+      <p class="small">
+        <strong>published:</strong> <%= article.date.strftime('%e %B %Y') %>
+        <% if article.tags.length > 1 %>
+          <span class="tags right">
+            <strong>tags:</strong> <%= formatted_article_tags(article.tags) %>
           </span>
-        </p>
-      </div>
-      <div class="columns two">
-        <small class="date"><%= article.date.strftime('%b %e, %Y') %></small>
-      </div>
+        <% end %>
+      </p>
+      <p>
+        <%= article.summary %>
+      </p>
     </div>
-  <% end %>
-</div>
+  </div>
+<% end %>

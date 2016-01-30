@@ -11,35 +11,26 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <div id="header">
-        <h1>liz abinante</h1>
-        <h2>software engineer, speaker, awesome human</h2>
-      </div>
-
+    <div class="container" id="content">
       <div class="row">
-        <div class="one columns">
-          <div id="navigation">
-            <ul class="navigation">
-              <li><a href="/">home</a></li>
-              <li><a href="/writing">writing</a></li>
-              <li><a href="/talks">talks</a></li>
-              <li><a href="/about">about</a></li>
-              <li><a href="/contact">contact</a></li>
-              <li><a href="/speaker-info">speaking</a></li>
-              <li><a href="http://tinyletter.com/feministy">subscribe</a></li>
-              <li><a href="http://twitter.com/feministy">tweet</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="eleven columns">
-          <div id="main" class="content">
+        <div class="twelve columns">
+          <ul class="navigation">
+            <li>liz abinante</li>
+            <li><a href="/">home</a></li>
+            <li><a href="/writing">writing</a></li>
+            <li><a href="/talks">talks</a></li>
+            <li><a href="/about">about</a></li>
+            <li><a href="/contact">contact</a></li>
+            <li><a href="/speaker-info">speaking</a></li>
+            <li><a href="http://tinyletter.com/feministy">subscribe</a></li>
+            <li><a href="http://twitter.com/feministy">twitter</a></li>
+          </ul>
+      
           <% unless current_article.nil? %>
             <small class="date right"><%= current_article.date.strftime('%B %e, %Y') %></small>
             <h1><%= current_article.title %></h1>
           <% end %>
-            <%= yield %>
-          </div>
+          <%= yield %>
         </div>
       </div>
     </div>

@@ -1,10 +1,15 @@
 @charset "utf-8";
 
-$gray: #2F2933;
+$gray: #333333;
 $accent: #E6C06E;
 $secondary: #EA4C4E;
-$highlight: #FA7678;
+$highlight: lighten($accent, 10%);
 $white: #FDFFFF;
+
+
+// ************************************************************************** //
+// GLOBAL STYLES                                                              //
+// ************************************************************************** //
 
 body {
   color: $gray;
@@ -13,18 +18,6 @@ body {
 
 p {
   text-align: justify;
-}
-
-#home {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  .image {
-    text-align: center;
-  }
-  .subtitle {
-    font-size: 150%;
-    font-weight: 300;
-  }
 }
 
 a {
@@ -49,4 +42,64 @@ pre, code {
 
 .code {
   line-height: initial;
+}
+
+ul.navigation {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 65%;
+  padding: 0px;
+  background-color: $accent;
+  li {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0px;
+  }
+  a {
+    color: $white;
+    border-bottom: 0px;
+    &:hover {
+      color: $secondary;
+    }
+  }
+}
+
+.right {
+  float: right;
+}
+
+.small {
+  font-size: 75%;
+}
+
+// ************************************************************************** //
+// PAGE SPECIFIC STYLES                                                       //
+// ************************************************************************** //
+#home {
+  padding: 5% 0;
+  .image {
+    text-align: center;
+  }
+  .subtitle {
+    font-size: 150%;
+    font-weight: 300;
+  }
+}
+
+#content {
+  padding: 2% 0;
+  h2 {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-weight: 500;
+  }
+  .article {
+    border-bottom: 3px solid lighten($accent, 20%);
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+#talk {
+  // talk pages
 }

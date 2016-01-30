@@ -51,7 +51,7 @@ end
 
 activate :livereload
 activate :directory_indexes
-activate :syntax, :line_numbers => true
+activate :syntax, :line_numbers => false
 
 # Methods defined in the helpers block are available in templates
 helpers do

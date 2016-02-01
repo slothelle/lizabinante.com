@@ -38,7 +38,7 @@ And holy shit, 4 days is a really long time.
 
 I was feeling some pretty intense jet lag on the first day (despite having been in Europe for 4 days...), but I pulled through and I don't think anyone in the audience would use the word "exhausted" to describe my demeanor. 
 
-I loved getting to talk to each speaker during the speaker dinners, and again before they went out on stage. They were all so incredibly different and had such great things to talk about. I had a super intense conversation about Rails and Ember conventions and what directions Ember was heading in with Yehuda, I got to cheer one of my friends on before her very first conference talk, and I got to talk about pizza, toddlers, and music with Aaron. I remember every conversation with every speaker and had a great time back stage.
+I loved getting to talk to each speaker during the speaker dinners, and again before they went out on stage. They were all so incredibly different and had such great things to talk about. I had a super intense conversation about Rails and Ember conventions and what directions Ember was heading in with Yehuda, I got to cheer one of my friends on before her very first conference talk, and I got to talk about pizza, toddlers, and music with Aaron Quint. I remember every conversation with every speaker and had a great time back stage.
 
 I had an awesome setup back stage so I didn't miss any of the talks, and it was kind of nice to be one of two or three people back stage watching a talk. I could laugh and exclaim just like I would if I was watching the talk individually. I didn't feel like I missed out on anything with the talks being back stage.
 

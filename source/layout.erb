@@ -6,7 +6,7 @@
     <title>liz abinante <%= ' - ' + current_article.title unless current_article.nil? %></title>
     <%= stylesheet_link_tag "normalize", "skeleton", "all" %>
     <style>
-      <%= Rouge::Themes::Github.render(:scope => '.highlight') %>
+      <%= Rouge::Themes::Base16::Solarized.render(:scope => '.highlight') %>
     </style>
   </head>
   <body>

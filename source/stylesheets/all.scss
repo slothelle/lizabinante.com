@@ -35,6 +35,10 @@ pre, code {
   font-family: "Droid Sans Mono", "Source Code Pro", monospace;
 }
 
+code {
+  line-height: 1.75em;
+}
+
 .highlighted {
   color: $highlight;
   font-weight: 700;

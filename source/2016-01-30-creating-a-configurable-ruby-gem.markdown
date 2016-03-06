@@ -43,7 +43,7 @@ First, you need to sign up for a [RubyGems](https://rubygems.org/) account. Make
 Then, when you're ready, run this command:
 
 ```shell
-gem publish ravelry-0.0.0.gem
+gem push ravelry-0.0.0.gem
 ```
 
 This will published your gem to the RubyGems.org server, and give you a nice little page, like [this](https://rubygems.org/gems/ravelry)!

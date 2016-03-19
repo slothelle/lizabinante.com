@@ -10,33 +10,38 @@
     </style>
   </head>
   <body>
-    <div class="container" id="content">
-      <div class="row">
-        <div class="twelve columns">
-          <ul class="navigation">
-            <li>liz abinante</li>
-            <li><a href="/">home</a></li>
-            <li><a href="/writing">writing</a></li>
-            <li><a href="/talks">talks</a></li>
-            <li><a href="/about">about</a></li>
-            <li><a href="/contact">contact</a></li>
-            <li><a href="/speaker-info">speaking</a></li>
-            <li><a href="http://tinyletter.com/feministy">subscribe</a></li>
-            <li><a href="http://twitter.com/feministy">twitter</a></li>
-          </ul>
-      
-          <% unless current_article.nil? %>
+    <div id="content">
+      <ul class="navigation" role="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/writing">Writing</a></li>
+        <li><a href="/talks">Talks</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/speaker-info">Speaking</a></li>
+        <li><a href="http://tinyletter.com/feministy">Subscribe</a></li>
+        <li><a href="http://twitter.com/feministy">Twitter</a></li>
+      </ul>
+
+      <% unless current_article.nil? %>
+        <div class="header--container">
+          <div class="header--details-text">
             <h1><%= current_article.title %></h1>
-            <p class="date">
-              <strong>published:</strong> <%= current_article.date.strftime('%e %B %Y') %>
-              <% if current_article.tags.length > 1 %>
-                <span class="tags right">
-                  <strong>tags:</strong> <%= formatted_article_tags(current_article.tags) %>
-                </span>
-              <% end %>
-            </p>
-          <% end %>
-          <%= yield %>
+            <% if current_article.tags.length > 1 %>
+              <h2>
+                <%= formatted_article_tags(current_article.tags) %>
+              </h2>
+            <% end %>
+            <h3>
+              <%= current_article.date.strftime('%e %B %Y') %>
+            </h3>
+          </div>
+        </div>
+      <% end %>
+      <div class="container">
+        <div class="rows">
+          <div class="columns twelve">
+            <%= yield %>
+          </div>
         </div>
       </div>
     </div>

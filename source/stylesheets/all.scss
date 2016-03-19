@@ -21,6 +21,7 @@ $white: #FDFFFF;
 body {
   color: $gray;
   background-color: $white;
+  padding: 5% 0;
 }
 
 p {
@@ -121,17 +122,48 @@ blockquote {
   padding: 5% 0;
 }
 
+.header--container {
+  // background-color: lighten($gray, 77%);
+  background-color: $highlight;
+  padding: 2%;
+}
+
+.header--details-text {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.header--details, .header--subheader {
+  max-width: 840px;
+  margin: 0 auto;
+  a {
+    color: $gray;
+    border-bottom: 0px;
+  }
+}
+
+.navigation {
+  ul, li {
+    display: inline;
+  }
+  li {
+    list-style-type: none;
+    padding-right: 30px;
+    font-size: 0.75em;
+    a {
+      color: $gray;
+      border-bottom: 3px solid $white;
+      &:hover {
+        border-bottom: 3px solid $highlight;
+      }
+    }
+  }
+}
+
 // ************************************************************************** //
 // PAGE SPECIFIC STYLES                                                       //
 // ************************************************************************** //
 #home {
-  padding: 5% 0;
-  .header--container {
-    // background-color: lighten($gray, 77%);
-    background-color: $highlight;
-    padding: 2%;
-  }
-
   .header--details {
     display: flex;
   }
@@ -148,20 +180,12 @@ blockquote {
     }
   }
 
-  .header--details, .header--subheader {
-    max-width: 840px;
-    margin: 0 auto;
-    a {
-      color: $gray;
-      border-bottom: 0px;
-    }
-  }
-
   .upcoming {
     padding: 10% 0;
   }
 
   .upcoming--details, .latest--details {
+    padding: 5% 0 2% 0;
     h3 { 
       border-bottom: 3px solid $highlight;
       padding-bottom: 0px;
@@ -171,8 +195,6 @@ blockquote {
         border-bottom: 0px;
       }
     }
-
-    padding: 5% 0 2% 0;
   }
 
   ul, li {
@@ -186,22 +208,4 @@ blockquote {
     padding-right: 30px;
     font-size: 0.75em;
   }
-}
-
-#content {
-  padding: 2% 0;
-  h2 {
-    padding-top: 0px;
-    margin-top: 0px;
-    font-weight: 500;
-  }
-  .article {
-    border-bottom: 3px solid lighten($highlight, 20%);
-    padding-bottom: 20px;
-    margin-bottom: 50px;
-  }
-}
-
-#talk {
-  // talk pages
 }

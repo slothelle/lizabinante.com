@@ -7,6 +7,7 @@ location: "Barcelona, Spain"
 conf: "Barcelona Ruby Conf @ Full Stack Fest"
 linky: "http://fullstackfest.com/"
 speakerdeck: "https://speakerdeck.com/feministy/why-i-ruby-or-my-first-program"
+video: "https://www.youtube.com/watch?v=l0YcugodNoE"
 ---
 
 I write Ruby because the community helped me be a successful beginner when I was struggling alone after more than 10 years of writing HTML & CSS and knowing no one else who wrote code. This talk is an ode to Ruby and the wonderful things we've done together, and a little flash back to my first program ever.

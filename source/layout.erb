@@ -22,7 +22,13 @@
         <li><a href="http://twitter.com/feministy">Twitter</a></li>
       </ul>
 
-      <% unless current_article.nil? %>
+      <% if current_article.nil? %>
+        <div class="header--container">
+          <div class="header--details-text">
+            <h1><%= current_page.url.gsub('/', '').gsub('-', ' ').capitalize %></h1>
+          </div>
+        </div>
+      <% else %>
         <div class="header--container">
           <div class="header--details-text">
             <h1><%= current_article.title %></h1>

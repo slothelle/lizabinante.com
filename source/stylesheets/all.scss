@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+$font: "freight-sans-pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 $serif: "karmina", "Georgia", serif;
 
 $gray: #161616;
@@ -56,7 +57,7 @@ code {
 }
 
 .highlighted {
-  color: $highlight;
+  background-color: $highlight;
   font-weight: 700;
 }
 
@@ -160,6 +161,27 @@ blockquote {
   }
 }
 
+.upcoming, .article {
+  padding: 10% 0;
+}
+
+.upcoming--details, .latest--details, .article {
+  padding: 5% 0 2% 0;
+  h3 { 
+    border-bottom: 3px solid $highlight;
+    padding-bottom: 0px;
+    a {
+      color: $gray;
+      font-weight: 700;
+      border-bottom: 0px;
+    }
+  }
+}
+
+em {
+  font-family: $serif;
+}
+
 // ************************************************************************** //
 // PAGE SPECIFIC STYLES                                                       //
 // ************************************************************************** //
@@ -180,23 +202,6 @@ blockquote {
     }
   }
 
-  .upcoming {
-    padding: 10% 0;
-  }
-
-  .upcoming--details, .latest--details {
-    padding: 5% 0 2% 0;
-    h3 { 
-      border-bottom: 3px solid $highlight;
-      padding-bottom: 0px;
-      a {
-        color: $gray;
-        font-weight: 700;
-        border-bottom: 0px;
-      }
-    }
-  }
-
   ul, li {
     display: inline;
     padding: 0px;
@@ -207,5 +212,11 @@ blockquote {
     list-style-type: none;
     padding-right: 30px;
     font-size: 0.75em;
+  }
+}
+
+#content {
+  .article {
+    padding-bottom: 5%;
   }
 }

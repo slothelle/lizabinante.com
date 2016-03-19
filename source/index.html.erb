@@ -2,21 +2,91 @@
 layout: home
 ---
 
-<h1>Hello, I'm Liz!</h1>
+<div class="header--container">
+  <div class="header--details">
+    <div class="header--details-text">
+      <h1>Liz Abinante</h1>
+      <h2 class="subtitle">If I were a cartoon character, I would be me.</h2>
+      <h3>Software engineer, feminist, and crafter.</h3>
+    </div>
+    <div class="header--details-image">
+      <img src="/images/header-bw.png" alt="Image of a young woman with short, curly, brown and pink hair.">
+    </div>
+  </div>
 
-<h2 class="subtitle">
-  I'm a software engineer who gets a kick out of building <a href="https://github.com/feministy" target="#">fun things</a>. 
-</h2>
+  <div class="header--subheader">
+    <ul>
+      <li>
+        <a href="https://twitter.com/feministy" target="#"><i class="fa fa-twitter fa-lg"></i> Twitter</a>
+      </li>
+      <li>
+        <a href="https://github.com/feministy" target="#"><i class="fa fa-github fa-lg"></i> Github</a>
+      </li>
+      <li>
+        <a href="mailto:me@liz.codes"><i class="fa fa-envelope fa-lg"></i> Email</a>
+      </li>
+    </ul>
+  </div>
+</div>
 
-<p>
-  I <a href="/writing">write</a> and <a href="/talks">speak</a> about diversity, web development and design, and education. I <a href="http://twitter.com/feministy">tweet</a> (a lot) about development and the tech industry. You can <a href="http://tinyletter.com/feministy">subscribe</a> to my articles, too! Learn more <a href="/about">about me</a> or <a href="/contact">get in touch</a>.
-</p>
+<div class="container">
+  <div class="row">
+    <div class="columns twelve">
+      <h2>Hello!</h2>
+      <p>
+        I <a href="/writing">write</a> and <a href="/talks">speak</a> about diversity, web development and design, and education. I <a href="http://twitter.com/feministy">tweet</a> (a lot) about development and the tech industry. Learn more <a href="/about">about me</a> or <a href="/contact">get in touch</a>. Below you'll find a list of upcoming talks, as well as my most recent blog posts. 
+      </p>
 
-<h2>
-  Recently:
-</h2>
+      <p>
+        Looking for speakers at your conference? <a href="/speaker-info" class="highlight">Speaking info can be found here</a>.
+      </p>
 
-<p>
-  I've written about <%= link_to most_recent(blog.articles, "blog", 1).first.title, most_recent(blog.articles, "blog", 1).first %> and given a talk on <%= link_to most_recent(blog.articles, "talk", 1).first.title, most_recent(blog.articles, "talk", 1).first %>.
-</p>
+      <div class="upcoming">
+        <h2>
+          Upcoming talks
+        </h2>
+        <div class="upcoming--details">
+          <h3><a href="http://donutjs.club/" target="#">donut.js</a></h3>
+          <p>
+            April 26, 2016 in Portland, OR
+          </p>
+          <h4>
+            <a href="http://donutjs.club/" target="#" class="highlight">Auto-generating Knitting Patterns with Javascript</a>
+          </h4>
+          <p>
+            Taking something real-world and math-based, like knitting, and turning into a program is actually super easy (no one is surprised here). But! What happens when you combine that with best practices and expected conventions? Things get a lot more complicated than just crunching numbers, especially when your output will result in lots of manual hours creating a real object. This is the story of how I built a customizable knitting pattern generator in JavaScript (after I built it in Ruby first, of course).
+          </p>
+        </div>
+        <div class="upcoming--details">
+          <h3><a href="http://selfconference.org/" target="#">self.conference</a></h3>
+          <p>
+            May 20-21, 2016 in Detroit, MI
+          </p>
+          <h4><a href="http://selfconference.org/events/2/sessions#speaker_63" class="highlight" target="#">Programming for Human Interactions</a></h4>
+          <p>
+            Most programmers, regardless of our discipline or focus of choice, have a shared set of skills that make us good at what we do. On the whole we're excellent problem solvers who aren't afraid of failure and we spend ample amounts of time researching our options before experimenting with different solutions. What if we applied these deductive skills to more difficult scenarios of human interaction, like code reviews and teamwork? Is it possible for us to learn how to become better humans from how we program? Can being better humans make us better at programming? Using the tactics familiar to us as programmers, I'll outline a programmatic approach for human interactions to help us win at both programming and people-ing.
+          </p>
+        </div>
+      </div>
+
+      <div class="latest">
+        <h2>
+          Latest
+        </h2>
+        <% most_recent(blog.articles, "blog", 3).each do |article| %>
+          <div class="latest--details">
+            <h3><%= formatted_article_tags(article.tags) %></h3>
+            <p>
+              <%= article.date.strftime('%B %d, %Y') %>
+            </p>
+            <h4>
+              <%= link_to article.title, article, class: 'highlight' %>
+            </h4>
+            <%= article.summary %>
+          </div>
+        <% end %> 
+      </div> 
+    </div>
+  </div>
+</div>
 

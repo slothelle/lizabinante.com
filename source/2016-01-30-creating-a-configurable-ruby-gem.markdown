@@ -8,6 +8,8 @@ I love Ruby. I've also, unrelated to my love of Ruby, had a paralyzing fear of s
 
 READMORE
 
+_This is the first post I've written on configurable Ruby gems. You can read the second post here: [Configurable Ruby gems: Custom error messages and testing](/blog/configurable-ruby-gems-custom-errors-and-testing/)._
+
 If you don't want to read through the whole post and just want to get the code, a gist is available [here](https://gist.github.com/feministy/602bd01a0ce3f7b141ec).
 
 ## Bundler + RubyGems = Happy gems!

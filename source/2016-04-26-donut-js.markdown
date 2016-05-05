@@ -6,7 +6,7 @@ tags: talk
 location: "Portland, OR"
 conf: "donut.js"
 linky: "http://donutjs.club/"
-speakerdeck: "http://slides.feministy.io.s3-website-us-east-1.amazonaws.com/donut-js-april-2016/"
+speakerdeck: "http://slides.feministy.io/donut-js-april-2016/"
 ---
 
 Taking something real-world and math-based, like knitting, and turning into a program is actually super easy (no one is surprised here). But! What happens when you combine that with best practices and expected conventions? Things get a lot more complicated than just crunching numbers, especially when your output will result in lots of manual hours creating a real object. This is the story of how I built a customizable knitting pattern generator in JavaScript (after I built it in Ruby first, of course).

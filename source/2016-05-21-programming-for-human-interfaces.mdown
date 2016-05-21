@@ -1,0 +1,12 @@
+---
+layout: talk
+title:  "Programming for Human Interfaces"
+category: talk
+tags: talk
+location: "Detroit, MI"
+conf: "self.conference"
+linky: "http://selfconference.org/"
+speakerdeck: "https://speakerdeck.com/feministy/programming-for-human-interactions"
+---
+
+Most programmers, regardless of our discipline or focus of choice, have a shared set of skills that make us good at what we do. On the whole we're excellent problem solvers who aren't afraid of failure and we spend ample amounts of time researching our options before experimenting with different solutions. What if we applied these deductive skills to more difficult scenarios of human interaction, like code reviews and teamwork? Is it possible for us to learn how to become better humans from how we program? Can being better humans make us better at programming? Using the tactics familiar to us as programmers, I'll outline a programmatic approach for human interactions to help us win at both programming and people-ing.

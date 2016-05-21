@@ -1,5 +1,4 @@
-s3_id: <%= ENV['AWS_SWEET_BASIL_S3_ID'] %>
-s3_secret: <%= ENV['AWS_SWEET_BASIL_S3_SECRET'] %>
+s3_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
+s3_secret: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
 s3_bucket: lizabinante.com
-cloudfront_distribution_id: <%= ENV['AWS_SWEET_BASIL_CLOUDFRONT_ID'] %>
 site: build

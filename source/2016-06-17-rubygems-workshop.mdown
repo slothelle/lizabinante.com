@@ -1,0 +1,12 @@
+---
+layout: talk
+title:  "Writing Rubygems"
+category: talk
+tags: talk
+location: "Chicago, IL"
+conf: "Write Speak Code"
+linky: "http://www.writespeakcode.com/"
+speakerdeck: "https://speakerdeck.com/feministy/writing-ruby-gems"
+---
+
+Thanks to some lovely people in the Ruby and Bundler communities, creating your first Ruby gem is a lot more approachable than it used to be. Even with this helpful documentation, creating your first gem can be daunting: what are all of these files, and why are they organized this way? How do you test a gem? What are some basic best practices? During this talk, I'll walk you through creating a small Ruby gem and publishing it for others to use.

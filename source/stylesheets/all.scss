@@ -55,8 +55,10 @@ pre, code {
   font-family: "Droid Sans Mono", "Source Code Pro", monospace;
 }
 
-code {
-  line-height: 1.75em;
+pre.highlight {
+  padding: 10px 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
 }
 
 .code {
@@ -66,6 +68,9 @@ code {
 h1, h2, h3, h4 {
   padding: 0px;
   margin: 0px;
+  a {
+    border-bottom: 0px;
+  }
 }
 
 h1 {
@@ -149,6 +154,23 @@ em {
 
 strong {
   font-weight: $bold;
+}
+
+#content {
+  .header--container, .container {
+    max-width: 900px;
+    margin-left: 40px;
+    padding-left: 40px;
+  }
+
+  .container {
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+  }
+}
+
+.article {
+  margin-bottom: 120px;
 }
 
 // Page specific styles

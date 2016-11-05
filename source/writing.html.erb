@@ -1,14 +1,14 @@
 <% most_recent(blog.articles, "blog").each do |article| %>
 <div class="article">
+  <h2>
+    <%= link_to article.title, article %>
+  </h2>
   <h3>
     <%= formatted_article_tags(article.tags) %>
   </h3>
   <p>
     <%= article.date.strftime('%B %d, %Y') %>
   </p>
-  <h4>
-    <%= link_to article.title, article, class: 'highlight' %>
-  </h4>
 
   <%= article.summary %>
 </div>

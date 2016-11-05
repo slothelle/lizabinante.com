@@ -1,10 +1,13 @@
 @charset "utf-8";
 
-$font: "freight-sans-pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-$serif: "karmina", "Georgia", serif;
+$font: "jubilat", "Georgia", serif;
+
+$regular: 200;
+$bold: 600;
+$heavy: 700;
 
 $gray: #161616;
-$highlight: #FFFF7D;
+$highlight: #EA4C4E;
 $white: #FDFFFF;
 
 // ************************************************************************** //
@@ -23,6 +26,9 @@ body {
   color: $gray;
   background-color: $white;
   padding: 5% 0;
+  font-family: $font;
+  font-weight: $regular;
+  font-size: 2rem;
 }
 
 p {
@@ -30,20 +36,17 @@ p {
 }
 
 a {
-  color: lighten($gray, 50%);
+  border-bottom: 1px solid $gray;
   text-decoration: none;
-  transition: all 0.3s ease;
-  border-bottom: 3px solid $highlight;
+  color: $gray;
   &:hover {
-    background-color: $highlight;
-    color: $gray;
+    color: $highlight;
   }
   &.highlight {
-    color: $gray;
-    background-color: $highlight;
+    color: $highlight;
+    border-bottom: 0px;
     &:hover {
-      color: lighten($gray, 50%);
-      background-color: $white;
+      color: $gray;
     }
   }
 }
@@ -56,11 +59,6 @@ code {
   line-height: 1.75em;
 }
 
-.highlighted {
-  background-color: $highlight;
-  font-weight: 700;
-}
-
 .code {
   line-height: initial;
 }
@@ -70,23 +68,27 @@ h1, h2, h3, h4 {
   margin: 0px;
 }
 
-h2 {
-  font-family: $serif;
+h1 {
+  font-weight: $regular;
   font-style: italic;
-  font-weight: 400;
+}
+
+h2 {
+  font-family: $font;
+  font-weight: $bold;
   font-size: 1.75em;
   padding-bottom: 8px;
 }
 
 h3 {
-  font-weight: 400;
+  font-weight: $bold;
   font-size: 1.5em;
   padding-bottom: 20px;
 }
 
 h4 {
   font-size: 1.2em;
-  font-weight: 400;
+  font-weight: $bold;
   padding-bottom: 10px;
 }
 
@@ -123,26 +125,6 @@ blockquote {
   padding: 5% 0;
 }
 
-.header--container {
-  // background-color: lighten($gray, 77%);
-  background-color: $highlight;
-  padding: 2%;
-}
-
-.header--details-text {
-  max-width: 840px;
-  margin: 0 auto;
-}
-
-.header--details, .header--subheader {
-  max-width: 840px;
-  margin: 0 auto;
-  a {
-    color: $gray;
-    border-bottom: 0px;
-  }
-}
-
 .navigation {
   ul, li {
     display: inline;
@@ -161,62 +143,71 @@ blockquote {
   }
 }
 
-.upcoming, .article {
-  padding: 10% 0;
+em {
+  font-family: $font;
 }
 
-.upcoming--details, .latest--details, .article {
-  padding: 5% 0 2% 0;
-  h3 { 
-    border-bottom: 3px solid $highlight;
-    padding-bottom: 0px;
+strong {
+  font-weight: $bold;
+}
+
+// Page specific styles
+
+#home {
+  .intro {
+    font-size: 3.5rem; 
+    line-height: 5.5rem;
+  }
+
+  .home-content {
+    margin: 100px auto;
+    max-width: 840px;
+  }
+
+  .header--container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .header--details {
+    flex: 1 0;
+    align-self: center;
+    max-width: 472px;
+  }
+
+  .header--subheader {
+    flex: 1 0;
+    align-self: center;
     a {
-      color: $gray;
-      font-weight: 700;
       border-bottom: 0px;
     }
-  }
-}
-
-em {
-  font-family: $serif;
-}
-
-// ************************************************************************** //
-// PAGE SPECIFIC STYLES                                                       //
-// ************************************************************************** //
-#home {
-  .header--details {
-    display: flex;
-  }
-
-  .header--details-text {
-    flex: 1 0;
+    ul, li {
+      display: inline;
+      margin: 0;
+    }
+    li {
+      padding: 20px;
+    }
   }
 
   .header--details-image {
-    flex: 0 0 200px;
+    margin: 0 auto;
     img {
-      max-width: 150px;
-      border-radius: 100%;
+      width: 100%;
     }
   }
 
-  ul, li {
-    display: inline;
-    padding: 0px;
-    margin: 0px;
+  .upcoming, .latest {
+    margin-top: 150px;
   }
 
-  li {
-    list-style-type: none;
-    padding-right: 30px;
-    font-size: 0.75em;
-  }
-}
-
-#content {
-  .article {
-    padding-bottom: 5%;
+  .latest--details {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    a {
+      border-bottom: 0px;
+    }
   }
 }

@@ -4,13 +4,8 @@ layout: home
 
 <div class="header--container">
   <div class="header--details">
-    <div class="header--details-text">
-      <h1>Liz Abinante</h1>
-      <h2 class="subtitle">If I were a cartoon character, I would be me.</h2>
-      <h3>Software engineer, feminist, and crafter.</h3>
-    </div>
     <div class="header--details-image">
-      <img src="/images/header-bw.png" alt="Image of a young woman with short, curly, brown and pink hair.">
+      <img src="/images/header-color.png" alt="Image of a young woman with short, curly, brown and pink hair.">
     </div>
   </div>
 
@@ -29,49 +24,38 @@ layout: home
   </div>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="columns twelve">
-      <h2>Hello!</h2>
-      <p>
-        I <a href="/writing">write</a> and <a href="/talks">speak</a> about web development and design. I <a href="http://twitter.com/feministy">tweet</a> (a lot) about development and the tech industry. Learn more <a href="/about">about me</a> or <a href="/contact">get in touch</a>. Below you'll find a list of upcoming talks, as well as my most recent blog posts. 
-      </p>
+<div class="home-content">
+  <div class="intro">
+    <p>
+      <strong>Hello!</strong>
+      I <a href="/writing">write</a> and <a href="/talks">speak</a> about web development and design. I <a href="http://twitter.com/feministy">tweet</a> (a lot) about development and the tech industry. Learn more <a href="/about">about me</a> or <a href="/contact">get in touch</a>. Looking for speakers at your conference? Get some <a href="/speaker-info">speaking info</a>!
+    </p>
+  </div>
 
-      <p>
-        Looking for speakers at your conference? <a href="/speaker-info" class="highlight">Speaking info can be found here</a>.
-      </p>
-
-      <div class="upcoming">
-        <h2>
-          Upcoming talks
-        </h2>
-        <div class="upcoming--details">
-          <h3>No more for 2016!</h3>
-
-          <p>See you next year!</p>
-
-          <p>If you're interested in having me speak at your conference, <a href="/speaker-info">Speaking info can be found here</a>.</p>
-        </div>
-      </div>
-
-      <div class="latest">
-        <h2>
-          Latest
-        </h2>
-        <% most_recent(blog.articles, "blog", 3).each do |article| %>
-          <div class="latest--details">
-            <h3><%= formatted_article_tags(article.tags) %></h3>
-            <p>
-              <%= article.date.strftime('%B %d, %Y') %>
-            </p>
-            <h4>
-              <%= link_to article.title, article, class: 'highlight' %>
-            </h4>
-            <%= article.summary %>
-          </div>
-        <% end %> 
-      </div> 
+  <div class="upcoming">
+    <h2>
+      Speaking
+    </h2>
+    <div class="upcoming--details">
+      <p>I am scheduling speaking engagements for 2017! I'm able to accept <strong>one event</strong> that requires travel outside of the PNW and three within the greater PNW and the Bay Area. Is your event in Portland? <a href="/speaker-info">Let's talk</a>.</p>
     </div>
+  </div>
+
+  <div class="latest">
+    <h2>
+      Writing
+    </h2>
+    <% most_recent(blog.articles, "blog", 5).each do |article| %>
+      <div class="latest--details">
+        <p>
+          <%= article.date.strftime('%B %d, %Y') %>
+        </p>
+        <h3>
+          <%= link_to article.title, article %>
+        </h3>
+        <%= article.summary %>
+      </div>
+    <% end %> 
   </div>
 </div>
 

@@ -2,43 +2,24 @@
 layout: home
 ---
 
-<div class="header--container">
-  <div class="header--details">
-    <div class="header--details-image">
-      <img src="/images/header-color.png" alt="Image of a young woman with short, curly, brown and pink hair.">
-    </div>
-  </div>
-
-  <div class="header--subheader">
-    <ul>
-      <li>
-        <a href="https://twitter.com/feministy" target="#"><i class="fa fa-twitter fa-lg"></i> Twitter</a>
-      </li>
-      <li>
-        <a href="https://github.com/feministy" target="#"><i class="fa fa-github fa-lg"></i> Github</a>
-      </li>
-      <li>
-        <a href="mailto:me@liz.codes"><i class="fa fa-envelope fa-lg"></i> Email</a>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div class="home-content">
+<div class="content">
   <div class="intro">
     <p>
       <strong>Hello!</strong>
-      I <a href="/writing">write</a> and <a href="/talks">speak</a> about web development and design. I <a href="http://twitter.com/feministy">tweet</a> (a lot) about development and the tech industry. Learn more <a href="/about">about me</a> or <a href="/contact">get in touch</a>. Looking for speakers at your conference? Get some <a href="/speaker-info">speaking info</a>!
+      I'm Liz Abinante. I <a href="/writing">write</a> and <a href="/talks">speak</a> about web development and design. I <a href="http://twitter.com/feministy">tweet</a> (a lot) about development and the tech industry. Learn more <a href="/about">about me</a> or <a href="/contact">get in touch</a>. Looking for speakers at your conference? Get some <a href="/speaker-info">speaking info</a>!
     </p>
+    <div class="badges">
+      <a href="https://twitter.com/feministy" target="#"><i class="fa fa-twitter fa-lg"></i> Twitter</a>
+      <a href="https://github.com/feministy" target="#"><i class="fa fa-github fa-lg"></i> Github</a>
+      <a href="mailto:me@liz.codes"><i class="fa fa-envelope fa-lg"></i> Email</a>
+    </div>
   </div>
 
   <div class="upcoming">
     <h2>
       Speaking
     </h2>
-    <div class="upcoming--details">
-      <p>I am scheduling speaking engagements for 2017! I'm able to accept <strong>one event</strong> that requires travel outside of the PNW and three within the greater PNW and the Bay Area. Is your event in Portland? <a href="/speaker-info">Let's talk</a>.</p>
-    </div>
+    <p>I am scheduling speaking engagements for 2017! I'm able to accept <strong>one event</strong> that requires travel outside of the PNW and three within the greater PNW and the Bay Area. Is your event in Portland? <a href="/speaker-info">Let's talk</a>.</p>
   </div>
 
   <div class="latest">
@@ -46,7 +27,7 @@ layout: home
       Writing
     </h2>
     <% most_recent(blog.articles, "blog", 5).each do |article| %>
-      <div class="latest--details">
+      <div class="article">
         <p>
           <%= article.date.strftime('%B %d, %Y') %>
         </p>

@@ -14,29 +14,17 @@ $white: #FDFFFF;
 // GLOBAL STYLES                                                              //
 // ************************************************************************** //
 
-.wf-loading {
-  visibility: hidden;
-}
-
-.wf-active {
-  visibility: visible;
-}
-
 body {
   color: $gray;
   background-color: $white;
   padding: 5% 0;
   font-family: $font;
   font-weight: $regular;
-  font-size: 2rem;
-}
-
-p {
-  text-align: justify;
+  font-size: 2.2rem;
 }
 
 a {
-  border-bottom: 1px solid $gray;
+  border-bottom: 1px dotted lighten($gray, 60%);
   text-decoration: none;
   color: $gray;
   &:hover {
@@ -57,179 +45,55 @@ pre, code {
 
 pre.highlight {
   padding: 10px 20px;
-  font-size: 1rem;
-  line-height: 1.25rem;
+  font-size: 0.7em;
+  line-height: 1.6em;
+  width: 1000px;
+  margin-left: -80px;
 }
 
 .code {
   line-height: initial;
 }
 
-h1, h2, h3, h4 {
-  padding: 0px;
-  margin: 0px;
-  a {
-    border-bottom: 0px;
-  }
-}
-
-h1 {
-  font-weight: $regular;
-  font-style: italic;
-}
-
-h2 {
-  font-family: $font;
-  font-weight: $bold;
-  font-size: 1.75em;
-  padding-bottom: 8px;
-}
-
-h3 {
-  font-weight: $bold;
-  font-size: 1.5em;
-  padding-bottom: 20px;
-}
-
-h4 {
-  font-size: 1.2em;
-  font-weight: $bold;
-  padding-bottom: 10px;
-}
-
-ul, ol {
-  margin-left: 40px;
-}
-
-ol {
-  counter-reset: counter;
-  list-style-type: none;
-}
-
-ol li:before {
-  content: counter(counter, decimal) '.';
-  counter-increment: counter;
-  margin-right: 5px;
-  font-weight: bold;
-}
-
-blockquote {
-  border-left: 5px solid $highlight;
-  padding-left: 10px;
-}
-
-.right {
-  float: right;
-}
-
-.small {
-  font-size: 75%;
-}
-
-.container {
-  padding: 5% 0;
-}
-
-.navigation {
-  ul, li {
-    display: inline;
-  }
-  li {
-    list-style-type: none;
-    padding-right: 30px;
-    font-size: 0.75em;
+.intro {
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: justify;
+  .badges {
+    font-size: 0.45em;
+    text-align: center;
     a {
-      color: $gray;
-      border-bottom: 3px solid $white;
-      &:hover {
-        border-bottom: 3px solid $highlight;
+      margin-right: 40px;
+      &:last-of-type {
+        margin-right: 0px;
       }
     }
   }
 }
 
-em {
-  font-family: $font;
+.header, .content {
+  margin: 0 auto;
+  max-width: 840px;
+  padding: 3%;
 }
 
-strong {
-  font-weight: $bold;
+.meta {
+  font-size: 0.75em;
+  color: lighten($gray, 55%)
 }
 
-#content {
-  .header--container, .container {
-    max-width: 900px;
-    margin-left: 40px;
-    padding-left: 40px;
-  }
-
-  .container {
-    font-size: 1.5rem;
-    line-height: 2.75rem;
-  }
-}
-
-.article {
-  margin-bottom: 120px;
-}
-
-// Page specific styles
-
-#home {
-  .intro {
-    font-size: 3.5rem; 
-    line-height: 5.5rem;
-  }
-
-  .home-content {
-    margin: 100px auto;
-    max-width: 840px;
-  }
-
-  .header--container {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .header--details {
-    flex: 1 0;
-    align-self: center;
-    max-width: 472px;
-  }
-
-  .header--subheader {
-    flex: 1 0;
-    align-self: center;
+ul.navigation {
+  font-size: 0.9em;
+  border-bottom: 1px dotted lighten($gray, 60%);
+  li {
+    display: inline;
+    padding: 5px;
     a {
+      color: lighten($gray, 50%);
       border-bottom: 0px;
     }
-    ul, li {
-      display: inline;
-      margin: 0;
-    }
-    li {
-      padding: 20px;
-    }
-  }
-
-  .header--details-image {
-    margin: 0 auto;
-    img {
-      width: 100%;
-    }
-  }
-
-  .upcoming, .latest {
-    margin-top: 150px;
-  }
-
-  .latest--details {
-    margin-top: 20px;
-    margin-bottom: 100px;
-    a {
-      border-bottom: 0px;
+    &:last-of-type {
+      margin-right: 0px;
     }
   }
 }

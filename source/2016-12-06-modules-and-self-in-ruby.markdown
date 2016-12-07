@@ -117,7 +117,7 @@ What happens when we call `Animal.mammals`?
 
 Using our new favorite Ruby trick, let's see what we've got:
 
-```
+```ruby
 Animals.methods - Object.methods # =>
 ```
 

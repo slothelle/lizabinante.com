@@ -2,24 +2,25 @@
 layout: home
 ---
 
-<div class="content">
-  <div class="intro">
-    <p>
-      <strong>Hello!</strong>
-      I'm Liz Abinante. I <a href="/writing">write</a> and <a href="/talks">speak</a> about web development and design. I <a href="http://twitter.com/feministy">tweet</a> (a lot) about development and the tech industry. Learn more <a href="/about">about me</a> or <a href="/contact">get in touch</a>. Looking for speakers at your conference? Get some <a href="/speaker-info">speaking info</a>!
-    </p>
-    <div class="badges">
-      <a href="https://twitter.com/feministy" target="#"><i class="fa fa-twitter fa-lg"></i> Twitter</a>
-      <a href="https://github.com/feministy" target="#"><i class="fa fa-github fa-lg"></i> Github</a>
-      <a href="mailto:me@liz.codes"><i class="fa fa-envelope fa-lg"></i> Email</a>
-    </div>
+<div class="intro">
+  <p>
+    <strong>Hello!</strong>
+    I'm Liz Abinante. I <a href="/writing">write</a> and <a href="/talks">speak</a> about web development and design. I <a href="http://twitter.com/feministy">tweet</a> (a lot) about development and the tech industry. Learn more <a href="/about">about me</a> or <a href="/contact">get in touch</a>. Looking for speakers at your conference? Get some <a href="/speaker-info">speaking info</a>!
+  </p>
+  <div class="badges">
+    <a href="https://twitter.com/feministy" target="#"><i class="fa fa-twitter fa-lg"></i> Twitter</a>
+    <a href="https://github.com/feministy" target="#"><i class="fa fa-github fa-lg"></i> Github</a>
+    <a href="mailto:me@liz.codes"><i class="fa fa-envelope fa-lg"></i> Email</a>
   </div>
+</div>
+
+<div class="content">
 
   <div class="upcoming">
     <h2>
       Speaking
     </h2>
-    <p>I am scheduling speaking engagements for 2017! I'm able to accept <strong>one event</strong> that requires travel outside of the PNW and three within the greater PNW and the Bay Area. Is your event in Portland? <a href="/speaker-info">Let's talk</a>.</p>
+    <p>I am scheduling limited speaking engagements for 2017, if you're interested in having me speak at your event <a href="/speaker-info">let's talk</a>.</p>
   </div>
 
   <div class="latest">
@@ -28,12 +29,12 @@ layout: home
     </h2>
     <% most_recent(blog.articles, "blog", 5).each do |article| %>
       <div class="article">
-        <p>
-          <%= article.date.strftime('%B %d, %Y') %>
-        </p>
         <h3>
           <%= link_to article.title, article %>
         </h3>
+        <small>
+          <%= article.date.strftime('%B %d, %Y') %>
+        </small>
         <%= article.summary %>
       </div>
     <% end %> 

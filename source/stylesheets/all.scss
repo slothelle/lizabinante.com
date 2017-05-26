@@ -1,10 +1,11 @@
 @charset "utf-8";
 
-$font: "jubilat", "Georgia", serif;
+$accent: "jubilat", "Georgia", serif;
+$font: "Helvetica Neue", "Helvetica", sans-serif;
 
-$regular: 200;
+$regular: 300;
 $bold: 600;
-$heavy: 700;
+$heavy: 900;
 
 $gray: #161616;
 $highlight: #EA4C4E;
@@ -55,10 +56,28 @@ pre.highlight {
   line-height: initial;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $accent;
+}
+
+h1 {
+  color: $highlight;
+}
+
 .intro {
   font-size: 2em;
   line-height: 1.5em;
   text-align: justify;
+  background-color: $highlight;
+  padding: 7% 15%;
+  color: lighten($highlight, 25%);
+  strong {
+    font-weight: $heavy;
+  }
+  a {
+    color: lighten($highlight, 25%);
+    border-color: lighten($highlight, 25%);
+  }
   .badges {
     font-size: 0.45em;
     text-align: center;

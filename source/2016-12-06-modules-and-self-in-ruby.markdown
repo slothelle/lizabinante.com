@@ -163,7 +163,7 @@ Animals.mammals # => ["sloths", "puppies", "porcupines"]
 Animals.sea_creatures # => ["narwhal", "starfish", "dolphin"]
 ```
 
-Super handy if you're calling the methods directly on the method itself! 
+Super handy if you're calling the methods directly on the module itself! 
 
 While I can't think of a scenario where I would want to both `extend self` in my module *and* `include` or `extend` that module's functionality in a class, it's important to note that you **can do this** if you want to. Basically, using `extend self` doesn't change the behavior of `include` *or* `extend` in your classes:
 
